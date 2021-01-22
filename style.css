@@ -38,7 +38,7 @@
   width: 22px;
   height:10px;
   border-radius: 1px;
-  background-color:#fff /* change this to any color you want! */;
+  background-color:black /* change this to any color you want! */;
 }
 
 
@@ -49,9 +49,17 @@
   color: #fff;
 } */
 
-.navbar-toggler-icon{
-  color: #fff;
-}
+/* .navbar-toggler-icon{
+  color: black;
+} */
+
+
+/* .header-container .js-header .navbar .navbar-toggler-icon{
+  color: black;
+} */
+
+
+
 
 .nav-item{
   padding-left: 15px;
