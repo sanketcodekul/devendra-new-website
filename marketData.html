@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    
+    <title>CropData-MarketData</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+    <main>
+      <header id="js-header">
+        <div class="container menu-bar-container">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 logo-section">
+                    <a href="index.html" class="home-logo"><img alt="" src="./Images/cropdata-logo-white.svg" class="img-fluid"></a>
+                            <a href="index.html" class="other-logo"><img alt="" src="./Images/cropdata-logo-blue.svg" class="img-fluid"></a>
+                           
+                </div>
+                <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 menu-bar">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="aboutus.html">About Us</a></li>
+                        <li class="submenu_parent">
+                            <a class="mouse-pointer">Platforms <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="submenu">
+                                <li><a href="Dr-krishi.html">Dr. Krishi</a></li>
+                                <li><a href="agdata.html">AgData</a></li>
+                                <li><a href="agriota.html">Agriota</a></li>
+                                <li><a href="krishico.html">KrishiCo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="product&service.html">Products &amp; Services</a></li>
+                        <li><a href="partner.html">Partners</a></li>
+                        <li class="submenu_parent">
+                            <a class="mouse-pointer">CropData <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="submenu">
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="csr.html">CSR</a></li>
+                                <li><a href="agriota.html#agriota-commodity"
+                                  data-offset="180">Commodities</a></li>
+                                <li><a href="marketData.html">Market Data</a></li>
+                                <li><a href="career.html">Careers</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="joinus.html">Join Us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+        <section class="banner" style="background-color: #180018;">
+            <picture>
+                <source srcset="Images/banners/marketInfo-banner.jpg" media="(min-width: 1024px)" class="img-fluid">
+                <source srcset="Images/banners/marketInfo-banner-medium.jpg" media="(min-width: 400px)" class="img-fluid">
+                <source srcset="Images/banners/marketInfo-banner-small.jpg" media="(min-width: 230px)" class="img-fluid">
+                <img alt="" src="Images/banners/marketInfo-banner.jpg" width="100%" class="img-fluid">
+            </picture>
+        </section>
+
+        <section id="market-info">
+            <div class="container-fluid" style="max-width: 1600px;">
+                <h2 class="section-title text-center title-border">Daily Market Price</h2>
+                <p class="text-center">CropData provides daily market data and analytics from all benchmark markets for each commodity and variety. CropData also provides graphical analytics based on historical data.</p>
+                <div class="row justify-content-between">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="row align-items-end">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                                <div class="form-group m-0">
+                                  
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                                <div class="form-group m-0">
+                                    <label for="stateMarketInfoList"><strong>State</strong></label>
+                                    <select class="custom-select custom-select" id="stateMarketInfoList"><option value="0" selected="">Select All</option><option value="8">gujarat</option><option value="19">rajasthan</option><option value="24">uttar pradesh</option></select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-capitalize" id="commoName"></div>
+
+
+                <div style="clear: both;"></div>
+                <div class="table-responsive table-view tableFixHead dragscroll" style="text-align: center;cursor: grab; cursor : -o-grab; cursor : -moz-grab; cursor : -webkit-grab;">
+                    <table id="marketCurrentPrice" class="display nowrap table table-bordered table-hover table-fixed">
+
+                        <thead class="text-center">
+                            <tr>
+                                <th colspan="6">Market Price</th>
+                                <th colspan="3">Current (Rs./Qtl)</th>
+                                <th colspan="3">Change (%)</th>
+                            </tr>
+                        </thead>
+                        <thead class="text-center">
+                            <tr>
+                                <th>Date</th>
+                                <th class="text-left">State</th>
+                                <th class="text-left">District</th>
+                                <th class="text-left">Market</th>
+                                <th class="text-left">Variety</th>
+                                <th>Chart</th>
+                                <th>Min.</th>
+                                <th>Max.</th>
+                                <th>Modal</th>
+                                <th>Min.</th>
+                                <th>Max.</th>
+                                <th>Modal</th>
+                            </tr>
+                        </thead>
+                       
+                    </table>
+                </div>
+                <p class="mb-0" style="display: inline-block; padding: 6px 10px;"><strong>Source: </strong><a href="https://agmarknet.gov.in" style="color: #333333;" target="_blank">AgMarknet</a> &nbsp; &nbsp; <strong>Analytics: </strong>CropData</p>
+            </div>
+        </section>
+
+        <div class="modal" id="marketChartModal" tabindex="-1" role="dialog" aria-labelledby="marketChartModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="marketChartModalLabel">Daily Market Price</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h4 class="mb-3 text-center commodityName"></h4>
+                        <div class="chart-container">
+                            <canvas id="marketChart"></canvas>
+                        </div>
+                        <p class="modalReference" style="background-color: #f7f7f7;color: #000000;padding: 3px 15px;margin: -16px;margin-top: 10px;"><strong>Source: </strong><a href="https://agmarknet.gov.in" target="_blank" style="color: #333333;">AgMarknet</a> &nbsp; &nbsp; <strong>Analytics: </strong>CropData</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-sm btn-primary" data-dismiss="modal">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a id="back-to-top" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+        <footer><div class="msg-box"></div>
+<div class="container footer-menu-section">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+      <h5>Platforms</h5>
+      <ul class="foooter-menu">
+        <li><a href="dr-krishi.html">Dr. Krishi</a></li>
+        <li><a href="agriota.html">Agriota</a></li>
+        <li><a href="agdata.html">AgData</a></li>
+        <li><a href="krishiCo.html">KrishiCo</a></li>
+      </ul>
+    </div>
+  
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+      <h5>Products &amp; Services</h5>
+      <ul class="foooter-menu">
+        <li><a class="scroll" data-offset="200" href="product&service.html#customized-advisory">Customized Advisory and Alerts</a></li>
+        <li><a class="scroll" data-offset="200" href="product&service.html#e-marketplace">E-Marketplace</a></li>
+        <li><a class="scroll" data-offset="200" href="product&service.html#value-added-services">Value-added Services</a></li>
+        <li><a class="scroll" data-offset="200" href="product&service.html#ip-licensing">IP Licensing</a></li>
+        <li><a class="scroll" data-offset="200" href="product&service.html#indices">Indices</a></li>
+      </ul>
+    </div>
+  
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+      <h5>CropData</h5>
+      <ul class="foooter-menu">
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="csr.html">CSR</a></li>
+        <li><a class="scroll" data-offset="150" href="agriota.html#agriota-commodity">Commodities</a>
+        </li><li><a href="career.html">Careers</a></li>
+        <li><a href="news.html">News &amp; Media</a></li>
+        <li><a href="partner.html">Partners</a></li>
+      </ul>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+      <h5>Contact Us</h5>
+      <ul class="foooter-menu">
+        <li>
+          <i class="fas fa-map-marker-alt"></i>
+          <a href="https://www.google.com/maps?ll=21.120899,79.048064&amp;z=19&amp;t=m&amp;hl=en&amp;gl=IN&amp;mapclient=embed&amp;cid=5506432566055273817" target="_blank">11/1, IT Park, Gayatri Nagar, Parsodi, Nagpur 440022</a></li>
+        <li><i class="fas fa-envelope"></i> <a href="mailto:info@cropdata.in" target="_blank">info@cropdata.in</a>
+        </li>
+        <li><i class="fas fa-phone" style="-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-ms-transform: rotate(90deg);-o-transform: rotate(90deg);transform: rotate(90deg);"></i>
+          <a href="tel:+917122249901">+91-7122249901 - 06</a></li>
+      </ul>
+      <ul class="social-links">
+        <li>
+          <a href="https://www.facebook.com/CropDataTechnology" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/CropData_in" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/cropdata" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/cropdata/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UC4bawDlR-2SGOXST-FnoTdQ" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+></footer>
+    </main>
+   </body>
+   </html>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>CropData-Contactg</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+    integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+  <main>
+    <header id="js-header">
+      <div class="container menu-bar-container">
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 logo-section">
+            <a href="index.html" class="home-logo"><img alt="" src="./Images/cropdata-logo-white.svg"
+                class="img-fluid"></a>
+            <a href="index.html" class="other-logo"><img alt="" src="./Images/cropdata-logo-blue.svg"
+                class="img-fluid"></a>
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 menu-bar">
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="aboutus.html">About Us</a></li>
+              <li class="submenu_parent">
+                <a class="mouse-pointer">Platforms <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="submenu">
+                  <li><a href="Dr-krishi.html">Dr. Krishi</a></li>
+                  <li><a href="agdata.html">AgData</a></li>
+                  <li><a href="agriota.html">Agriota</a></li>
+                  <li><a href="krishico.html">KrishiCo</a></li>
+                </ul>
+              </li>
+              <li><a href="product&service.html">Products &amp; Services</a></li>
+              <li><a href="partner.html">Partners</a></li>
+              <li class="submenu_parent">
+                <a class="mouse-pointer">CropData <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="submenu">
+                  <li><a href="news.html">News</a></li>
+                  <li><a href="csr.html">CSR</a></li>
+                  <li><a href="agriota.html#agriota-commodity" data-offset="180">Commodities</a></li>
+                  <li><a href="marketData.html">Market Data</a></li>
+                  <li><a href="career.html">Careers</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="joinus.html">Join Us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="banner" style="background-color: #60c048;">
+      <picture>
+        <source srcset="Images/banners/contact-banner.jpg" media="(min-width: 1024px)" class="img-fluid">
+        <source srcset="Images/banners/contact-banner-medium.jpg" media="(min-width: 400px)" class="img-fluid">
+        <source srcset="Images/bannerscontact-banner-small.jpg" media="(min-width: 230px)" class="img-fluid">
+        <img alt="" src="Images/banners/contact-banner.jpg" width="100%" class="img-fluid">
+      </picture>
+    </section>
+
+    <div class="container-fluid contact-section">
+      <div class="row align-items-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 left_side">
+
+          <!-- <img alt="" src="images/contact-2-banner.jpg" width="100%" class="img-fluid"> -->
+
+          <iframe id="contact-map" src="map.html" width="100%" frameborder="0" style="border: 0px; height: 670px;"
+            allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 right_side">
+          <div class="form-box">
+            <h2 class="section-title title-border mb-3 pb-1">Contact Us</h2>
+            <p>Please feel free to contact us if you have any Query.</p>
+            <form id="contact-form" class="contact-form-container" onsubmit="return false" method="POST"
+              enctype="multipart/form-data" novalidate="novalidate">
+              <div class="form-group">
+                <label for="name">Full Name <span class="required">*</span></label>
+                <input type="text" class="form-control" maxlength="45" name="name" id="name" placeholder="Full Name"
+                  required="">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email <span class="required">*</span></label>
+                <input type="email" maxlength="100" class="form-control" name="email" id="email" placeholder="Email"
+                  required="">
+              </div>
+
+              <div class="form-group">
+                <label for="mobile">Mobile Number <span class="required">*</span></label>
+                <input type="text" class="form-control" maxlength="18" name="mobile" id="mobile"
+                  placeholder="Mobile Number" required="">
+              </div>
+
+              <div class="form-group">
+                <label for="query">Query</label>
+                <textarea class="form-control" name="query" id="query" placeholder="Query"></textarea>
+              </div>
+
+              <div class="form-group">
+                <button id="contact-form-btn" class="form-control w-auto btn btn-dark">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="container contact_location">
+        <h2 class="section-title text-center title-border">Our Offices</h2>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-12 col-md-4">
+            <a href="https://www.google.com/maps?ll=21.120899,79.048064&amp;z=19&amp;t=m&amp;hl=en&amp;gl=IN&amp;mapclient=embed&amp;cid=5506432566055273817"
+              target="_blank">
+              <!-- <i class="fas fa-map-marker-alt"></i> -->
+              <img alt="" src="images/icon/office-loactions.svg" class="img-fluid">
+              <h4>Central Lab / Corporate Headquarter</h4>
+              <h6>11/1, IT Park, Gayatri Nagar, Parsodi, Nagpur 440022, Maharashtra</h6>
+            </a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4">
+            <a class="mouse-pointer" target="_blank">
+              <i class="fas fa-map-marker-alt"></i>
+              <!-- <img alt="" src="images/icon/office-loactions.svg" class="img-fluid"> -->
+              <h4>Special Lab</h4>
+              <h6>78, Second floor, Industrial Area Phase 1, Chandigarh 160002</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="regional_offices">
+        <div class="container">
+          <h3 class="section-title title-border">Our Regional labs</h3>
+          <ul class="regions_list">
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Deesa,</h5>
+                <h6>Banaskantha</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Metanhail,</h5>
+                <h6>Jhajjar</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Mainpuri,</h5>
+                <h6>Mainpuri</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Kherli,</h5>
+                <h6>Alwar</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Kaul,</h5>
+                <h6>Kaithal</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Yeola,</h5>
+                <h6>Manmad</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Tikamgarh,</h5>
+                <h6>Tikamgarh</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Unjha,</h5>
+                <h6>Mahesana</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Tenali,</h5>
+                <h6>Guntur</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Mehta Chowk,</h5>
+                <h6>Amritsar</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Jalesar,</h5>
+                <h6>Hathras</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Sandi,</h5>
+                <h6>Hardoi</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Anta,</h5>
+                <h6>Baran</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Erandol,</h5>
+                <h6>Jalgaon</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Nidadavolu,</h5>
+                <h6>West Godavari</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Warangal,</h5>
+                <h6>Warangal</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Vettavalam,</h5>
+                <h6>Tiruvannamalai</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Nadiad,</h5>
+                <h6>Kheda</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Maripeda,</h5>
+                <h6>Mahabubabad</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Sirauli Gauspur,</h5>
+                <h6>Barabanki</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Bardoli,</h5>
+                <h6>Surat</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Julapalli,</h5>
+                <h6>Peddapalli</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Ganeshgarh,</h5>
+                <h6>Sri Ganganagar</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Narasinghgarh,</h5>
+                <h6>Rajgarh</h6>
+              </a>
+            </li>
+            <li><a class="mouse-pointer">
+                <h5><i class="fas fa-map-marker-alt"></i> Chindwara,</h5>
+                <h6>Chindwara</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="modal fade" id="formModalMsg">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Contact Request</h4>
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a id="back-to-top" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+    <footer>
+      <div class="msg-box"></div>
+      <div class="container footer-menu-section">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>Platforms</h5>
+            <ul class="foooter-menu">
+              <li><a href="dr-krishi.html">Dr. Krishi</a></li>
+              <li><a href="agriota.html">Agriota</a></li>
+              <li><a href="agdata.html">AgData</a></li>
+              <li><a href="krishiCo.html">KrishiCo</a></li>
+            </ul>
+          </div>
+        
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>Products &amp; Services</h5>
+            <ul class="foooter-menu">
+              <li><a class="scroll" data-offset="200" href="product&service.html#customized-advisory">Customized Advisory and Alerts</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#e-marketplace">E-Marketplace</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#value-added-services">Value-added Services</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#ip-licensing">IP Licensing</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#indices">Indices</a></li>
+            </ul>
+          </div>
+        
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>CropData</h5>
+            <ul class="foooter-menu">
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="csr.html">CSR</a></li>
+              <li><a class="scroll" data-offset="150" href="agriota.html#agriota-commodity">Commodities</a>
+              </li><li><a href="career.html">Careers</a></li>
+              <li><a href="news.html">News &amp; Media</a></li>
+              <li><a href="partner.html">Partners</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>Contact Us</h5>
+            <ul class="foooter-menu">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="https://www.google.com/maps?ll=21.120899,79.048064&amp;z=19&amp;t=m&amp;hl=en&amp;gl=IN&amp;mapclient=embed&amp;cid=5506432566055273817"
+                  target="_blank">11/1, IT Park, Gayatri Nagar, Parsodi, Nagpur 440022</a>
+              </li>
+              <li><i class="fas fa-envelope"></i> <a href="mailto:info@cropdata.in" target="_blank">info@cropdata.in</a>
+              </li>
+              <li><i class="fas fa-phone"
+                  style="-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-ms-transform: rotate(90deg);-o-transform: rotate(90deg);transform: rotate(90deg);"></i>
+                <a href="tel:+917122249901">+91-7122249901 - 06</a>
+              </li>
+            </ul>
+            <ul class="social-links">
+              <li>
+                <a href="https://www.facebook.com/CropDataTechnology" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/CropData_in" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/cropdata" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/cropdata/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UC4bawDlR-2SGOXST-FnoTdQ" target="_blank">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>

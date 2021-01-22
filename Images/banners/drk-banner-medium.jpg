@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://cropdata.in/dr-krishi.html -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="https://cropdata.in/images/favicon.ico" type="image/x-icon">
+  <meta name="description" content="A comprehensive field-level verification to estimate production and the ongoing impact of relevant risks.">
+  <meta name="keywords" content="CropData, Agriculture Services, Farming services, Krishi, Dr. Krishi, Agriculture Extension">
+  <meta name="author" content="Sachin Suri - MD, CropData, Designer &amp; Developer Sr. Developer Prakash Patil">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Dr. Krishi - Farmer's Last-Mile Interface | CropData</title>
+  <link href="./drk-banner-medium_files/css2" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./drk-banner-medium_files/all.css">
+  <link type="text/css" rel="stylesheet" href="./drk-banner-medium_files/jquery.jConveyorTicker.min.css">
+  <link type="text/css" rel="stylesheet" href="./drk-banner-medium_files/ticker-styles.css">
+  <link rel="stylesheet" type="text/css" href="./drk-banner-medium_files/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="./drk-banner-medium_files/main.css">
+
+  <!-- IE function that returns browser is Internet Explorer-->
+  <script type="text/javascript" async="" src="./drk-banner-medium_files/analytics.js.download"></script><script>
+    function isIE() {
+      ua = navigator.userAgent;
+      /* MSIE used to detect old browsers and Trident used to newer ones*/
+      var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
+      return is_ie;
+    }
+    /* Check and redirect to another page */
+    if (isIE()) {
+      location.replace("compatible-browsers.html");
+    }
+  </script>
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="./drk-banner-medium_files/js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-176736470-1');
+  </script>
+
+</head>
+
+<body>
+  <div id="loading" style="display: none;">
+    <div id="loading-center">
+      <div id="loading-center-absolute">
+        <img alt="" src="./drk-banner-medium_files/cropdata-logo-blue.svg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <main>
+    <header id="js-header">
+      <div class="ticker" id="drkTicker" style="display: block;">
+        <div class="d-demo-wrap">
+          <div class="jctkr-label">
+            <strong>Commodity Stress</strong>
+          </div>
+          <div class="jctkr-label" style="min-width: auto;    padding-left: 0;" title="Reverse Ticker">
+            <strong><i class="fas fa-angle-left"></i></strong>
+          </div>
+          <div class="js-conveyor-1 jctkr-wrapper jctkr-initialized">
+            <ul style="width: 27588.4px; left: -2362.55px;">
+            <li style=""><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Vegetative, <strong>Stress name: </strong> Root rot, Root-knot nematode, Sclerotinia rot, Physalis Minima L., Phytophthora blight, Pink root rot</li><li style=""><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Grain filling, <strong>Stress name: </strong> Root rot, Root-knot nematode, RUMEX DENTATUS L., Rust, Scales, Sclerotinia rot, Phytophthora blight</li><li style=""><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Maturity, <strong>Stress name: </strong> Scales, Sclerotinia rot</li><li style=""><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Milking, <strong>Stress name: </strong> Root rot, Root-knot nematode, RUMEX DENTATUS L., Rust, Sclerotinia rot, Phytophthora blight</li><li style=""><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Seedling, <strong>Stress name: </strong> Sclerotinia rot, Physalis Minima L.</li><li style=""><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Silking, <strong>Stress name: </strong> Pink root rot, Root rot, Root-knot nematode, RUMEX DENTATUS L., Rust, Sclerotinia rot, Phytophthora blight</li><li style=""><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Tasseling, <strong>Stress name: </strong> Root rot, Root-knot nematode, RUMEX DENTATUS L., Rust, Sclerotinia rot, Phytophthora blight, Pink root rot</li><li style=""><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Flowering, <strong>Stress name: </strong> Cyperus Rotundus L., Dactyloctenium Aegyptium (L.) Willd, Dinebra Retroflexa (Vahl.) Panzer., Downy mildew, Dry root rot, Dry rot, Cyperus iria L., Earhead bug, Cyperus Rotundus L</li><li style=""><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Grain filling, <strong>Stress name: </strong> Cyperus Rotundus L., Dactyloctenium Aegyptium (L.) Willd, Dinebra Retroflexa (Vahl.) Panzer., Downy mildew, Dry rot, Earhead bug, Cyperus iria L.</li><li style=""><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Heading, <strong>Stress name: </strong> Cyperus Rotundus L., Dactyloctenium Aegyptium (L.) Willd, Dinebra Retroflexa (Vahl.) Panzer., Downy mildew, Downy mildew/ Green ear disease, Dry root rot, Cyperus iria L., Earhead bug, Cyperus Rotundus L</li><li style=""><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Maturity, <strong>Stress name: </strong> Downy mildew, Dry rot, Earhead bug, Dinebra Retroflexa (Vahl.) Panzer.</li><li style=""><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Panicle initiation, <strong>Stress name: </strong> Downy mildew, Downy mildew/ Green ear disease, Dry root rot, Cyperus iria L., Earhead bug, Cyperus Rotundus L, Cyperus Rotundus L., Dactyloctenium Aegyptium (L.) Willd, Dinebra Retroflexa (Vahl.) Panzer.</li><li style=""><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Seedling, <strong>Stress name: </strong> Dinebra Retroflexa (Vahl.) Panzer., Downy mildew/ Green ear disease, Earhead bug, Cyperus iria L., Cyperus Rotundus L, Cyperus Rotundus L., Dactyloctenium Aegyptium (L.) Willd</li><li style=""><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Tillering, <strong>Stress name: </strong> Downy mildew, Downy mildew/ Green ear</li><li style="" class="clone"><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Vegetative, <strong>Stress name: </strong> Root rot, Root-knot nematode, Sclerotinia rot, Physalis Minima L., Phytophthora blight, Pink root rot</li><li style="" class="clone"><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Grain filling, <strong>Stress name: </strong> Root rot, Root-knot nematode, RUMEX DENTATUS L., Rust, Scales, Sclerotinia rot, Phytophthora blight</li><li style="" class="clone"><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Maturity, <strong>Stress name: </strong> Scales, Sclerotinia rot</li><li style="" class="clone"><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Milking, <strong>Stress name: </strong> Root rot, Root-knot nematode, RUMEX DENTATUS L., Rust, Sclerotinia rot, Phytophthora blight</li><li style="" class="clone"><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Seedling, <strong>Stress name: </strong> Sclerotinia rot, Physalis Minima L.</li><li style="" class="clone"><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Silking, <strong>Stress name: </strong> Pink root rot, Root rot, Root-knot nematode, RUMEX DENTATUS L., Rust, Sclerotinia rot, Phytophthora blight</li><li style="" class="clone"><strong>Commodity: </strong>Maize, <strong>Phenophase: </strong> Tasseling, <strong>Stress name: </strong> Root rot, Root-knot nematode, RUMEX DENTATUS L., Rust, Sclerotinia rot, Phytophthora blight, Pink root rot</li><li style="" class="clone"><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Flowering, <strong>Stress name: </strong> Cyperus Rotundus L., Dactyloctenium Aegyptium (L.) Willd, Dinebra Retroflexa (Vahl.) Panzer., Downy mildew, Dry root rot, Dry rot, Cyperus iria L., Earhead bug, Cyperus Rotundus L</li><li style="" class="clone"><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Grain filling, <strong>Stress name: </strong> Cyperus Rotundus L., Dactyloctenium Aegyptium (L.) Willd, Dinebra Retroflexa (Vahl.) Panzer., Downy mildew, Dry rot, Earhead bug, Cyperus iria L.</li><li style="" class="clone"><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Heading, <strong>Stress name: </strong> Cyperus Rotundus L., Dactyloctenium Aegyptium (L.) Willd, Dinebra Retroflexa (Vahl.) Panzer., Downy mildew, Downy mildew/ Green ear disease, Dry root rot, Cyperus iria L., Earhead bug, Cyperus Rotundus L</li><li style="" class="clone"><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Maturity, <strong>Stress name: </strong> Downy mildew, Dry rot, Earhead bug, Dinebra Retroflexa (Vahl.) Panzer.</li><li style="" class="clone"><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Panicle initiation, <strong>Stress name: </strong> Downy mildew, Downy mildew/ Green ear disease, Dry root rot, Cyperus iria L., Earhead bug, Cyperus Rotundus L, Cyperus Rotundus L., Dactyloctenium Aegyptium (L.) Willd, Dinebra Retroflexa (Vahl.) Panzer.</li><li style="" class="clone"><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Seedling, <strong>Stress name: </strong> Dinebra Retroflexa (Vahl.) Panzer., Downy mildew/ Green ear disease, Earhead bug, Cyperus iria L., Cyperus Rotundus L, Cyperus Rotundus L., Dactyloctenium Aegyptium (L.) Willd</li><li style="" class="clone"><strong>Commodity: </strong>Paddy, <strong>Phenophase: </strong> Tillering, <strong>Stress name: </strong> Downy mildew, Downy mildew/ Green ear</li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="container menu-bar-container">
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 logo-section">
+            <a href="https://cropdata.in/index.html" class="home-logo"><img alt="" src="./drk-banner-medium_files/cropdata-logo-white.svg" class="img-fluid"></a>
+            <a href="https://cropdata.in/index.html" class="other-logo"><img alt="" src="./drk-banner-medium_files/cropdata-logo-blue.svg" class="img-fluid"></a>
+            <a class="btn btn-primary nav-toggle"><i class="fas fa-bars"></i></a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 menu-bar">
+            <ul class="nav-menu">
+              <li><a href="https://cropdata.in/index.html">Home</a></li>
+              <li><a href="https://cropdata.in/about.html">About Us</a></li>
+              <li class="submenu_parent active">
+                <a class="mouse-pointer">Platforms <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="submenu">
+                  <li class="active"><a href="https://cropdata.in/dr-krishi.html">Dr. Krishi</a></li>
+                  <li><a href="https://cropdata.in/agdata.html">AgData</a></li>
+                  <li><a href="https://cropdata.in/agriota.html">Agriota</a></li>
+                  <li><a href="https://cropdata.in/krishiCo.html">KrishiCo</a></li>
+                </ul>
+              </li>
+              <li><a href="https://cropdata.in/products.html">Products &amp; Services</a></li>
+              <li><a href="https://cropdata.in/partners.html">Partners</a></li>
+              <li class="submenu_parent">
+                <a class="mouse-pointer">CropData <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="submenu">
+                  <li><a href="https://cropdata.in/news.html">News</a></li>
+                  <li><a href="https://cropdata.in/csr.html">CSR</a></li>
+                  <li><a href="https://cropdata.in/agriota.html#agriota-commodity" data-offset="180">Commodities</a></li>
+                  <li><a href="https://cropdata.in/market-data.html">Market Data</a></li>
+                  <li><a href="https://cropdata.in/career.html">Careers</a></li>
+                  <li><a href="https://cropdata.in/contact.html">Contact</a></li>
+                  <li><a href="https://cropdata.in/cropdata-franchise.html">Join Us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner" style="background-color: #73bffd;">
+      <!-- <img alt="" src="images/drk-banner.jpg" width="100%" class="img-fluid blur-out" /> -->
+      <picture>
+        <source srcset="images/drk-banner.jpg" media="(min-width: 1024px)" class="img-fluid">
+        <source srcset="images/drk-banner-medium.jpg" media="(min-width: 400px)" class="img-fluid">
+        <source srcset="images/drk-banner-small.jpg" media="(min-width: 230px)" class="img-fluid">
+        <img alt="" src="./drk-banner-medium_files/drk-banner.jpg" class="img-fluid">
+      </picture>
+
+    </section>
+
+    <!-- <div class="image-color" style="background-color: #8dcbfa">
+         <img alt="" src="images/drk-banner.jpg" class="img-fluid" />
+      </div> -->
+
+    <nav class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 quick_links activeMenu p-0 text-center drk" id="quick_links" style="overflow: auto;">
+      <div class="nav nav-pills">
+        <ul class="m-0 p-0">
+          <li class="nav-item">
+            <a class="scroll nav-link" href="https://cropdata.in/dr-krishi.html#drk-introduction" data-offset="180">Introduction</a>
+          </li>
+          <li class="nav-item">
+            <a class="scroll nav-link" href="https://cropdata.in/dr-krishi.html#drk-features" data-offset="230">Engines &amp; Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="scroll nav-link" href="https://cropdata.in/dr-krishi.html#drk-gstm" data-offset="180">GSTM</a>
+          </li>
+          <li class="nav-item">
+            <a class="scroll nav-link" href="https://cropdata.in/dr-krishi.html#drk-news" data-offset="180">News &amp; Links</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="drk-introduction">
+      <div class="container intro-con">
+        <div class="row justify-content-end">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="box">
+              <h2 class="section-title title-border pb-1">Dr. Krishi</h2>
+              <img alt="" src="./drk-banner-medium_files/dr-krishi-icon.svg" class="img-fluid blur-out img" width="200">
+              <p class="para">Dr. Krishi Platform is the bottom-most layer (last-mile infrastructure) with a multi-tier network of laboratories designed on the telemedicine philosophy. It is a workflow-based platform that uses integrated technologies to
+                collect, monitor and analyze information, upwards from the farm-level. It also acts as the primary interface to handhold the farmer and provide customized extension and advisory services.</p>
+
+              <p class="para">It is powered by CropData's Spectral Data Analytics, Dynamic Crop Calendar, Dynamic Task Scheduler, Dynamic Questionnaire, Recommendation, Weather Data and Image Recognition tools.</p>
+              <!-- <ul>
+                        <li>We appoint highly qualified technicians specialists to perform end-to-end process
+                           management.</li>
+                        <li>Sample collection facility at field level and its thorough analysis.</li>
+                        <li>Based on the analysis we provide periodic advisory and education.</li>
+                     </ul> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="drk-features">
+      <div class="feature-container">
+        <div class="container">
+          <h2 class="section-title text-center title-border">Engines &amp; Tools</h2>
+          <nav>
+            <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active" id="nav-one-tab" data-toggle="tab" href="https://cropdata.in/dr-krishi.html#nav-one" role="tab" aria-controls="nav-one" aria-selected="true">Yield and Risk</a>
+
+
+              <a class="nav-item nav-link" id="nav-two-tab" data-toggle="tab" href="https://cropdata.in/dr-krishi.html#nav-two" role="tab" aria-controls="nav-two" aria-selected="false">
+                Spectral Indexing
+              </a>
+
+              <a class="nav-item nav-link" id="nav-three-tab" data-toggle="tab" href="https://cropdata.in/dr-krishi.html#nav-three" role="tab" aria-controls="nav-three" aria-selected="false">
+                Dynamic Crop Calendar
+              </a>
+
+              <a class="nav-item nav-link" id="nav-four-tab" data-toggle="tab" href="https://cropdata.in/dr-krishi.html#nav-four" role="tab" aria-controls="nav-four" aria-selected="false">
+                Operations (Logistics, Scheduling, Proximity)
+              </a>
+
+              <a class="nav-item nav-link" id="nav-five-tab" data-toggle="tab" href="https://cropdata.in/dr-krishi.html#nav-five" role="tab" aria-controls="nav-five" aria-selected="false">
+                GSTM
+              </a>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/yield-calculator-2.svg" class="img-fluid">
+                      <h4>Yield Calculator</h4>
+                      <p class="hide">Yield Calculator estimates the production in real-time, based on ground-truthing of crop health parameters in correlation to the current regional dynamics.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/risk-calculator.svg" class="img-fluid">
+                      <h4>Risk Calculator</h4>
+                      <p class="hide">Risk Calculator calculates risk on the farm level and estimates downward fluctuation of the production, based on historical data.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/images-processing.svg" class="img-fluid">
+                      <h4>Image Processing</h4>
+                      <p class="hide">It is an integrated tool for crop stress/disease recognition using Machine Learning.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/aerial-imagery.svg" class="img-fluid">
+                      <h4>Aerial Imagery</h4>
+                      <p class="hide">Automated mission controlled aerial image processing and analytics module that works in an offline environment even by an untrained field technician.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/automated-workflow.svg" class="img-fluid">
+                      <h4>Automated Workflow</h4>
+                      <p class="hide">CropData's spectral Indexing tool consists of an automated workflow that batch processes farm shapefiles using the Sentinel-2 platform and systematically processes multi-spectral data of 13 bands in the visible,
+                        near-infrared, and short-wave infrared spectrum with a spatial resolution of 10m.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/benchmark-indexing.svg" class="img-fluid">
+                      <h4>Benchmark Indexing</h4>
+                      <p class="hide">CropData uses an automated workflow-based benchmark of yield and risk, based on ground-truthing with an intelligent mechanism for proxying and data gap filling.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/yield-and-risk-estimation.svg" class="img-fluid">
+                      <h4>Yield &amp; Risk Estimation</h4>
+                      <p class="hide">Estimates the production in real-time based on the ground-truthing of the crop health parameters in correlation to the current regional dynamics and calculates the risk on the farm level and estimates the downward
+                        fluctuation of the production based on the historical data.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/standardized-visualization.svg" class="img-fluid">
+                      <h4>Standardized Visualization</h4>
+                      <p class="hide">Spectral indexing uses advanced analytics for standardizing the visual representation of indices over time.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <div class="thumb">
+                        <img alt="" src="./drk-banner-medium_files/static-crop-calendar.svg" class="img-fluid">
+                      </div>
+                      <h4>Static Calendar</h4>
+                      <p class="hide">A reference index to monitor crop health at each development stage of a crop. It helps to know the risky periods and their respective biotic and abiotic stresses. It plays a key role in suggesting appropriate
+                        measures and recommendations to the farmer.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <div class="thumb">
+                        <img alt="" src="./drk-banner-medium_files/dynamic-crop-calendar.svg" class="img-fluid">
+                      </div>
+                      <h4>Realtime Ground-truthing &amp; Weather Indexing</h4>
+                      <p class="hide">A real-time tool based on weather (live forecast data) and ground-truthing that calibrates the static crop calendar, making it dynamic. DCC is location, variety, stage-specific and helps in predicting the occurrence
+                        of possible stresses at a given time.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/dynamic-questionanaire-3.svg" class="img-fluid">
+                      <h4>Dynamic Questionnaire</h4>
+                      <p class="hide">The dynamic questionnaire assesses the status of stress and health of a farmer's field through a set of questions that vary by commodity, phenophase, plant part, and stress type.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/recommendation.svg" class="img-fluid">
+                      <h4>Dynamic Recommendation</h4>
+                      <p class="hide">A tool that generates dynamic recommendations based on the stress diagnosis done by our technical associates.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/alert-3.svg" class="img-fluid">
+                      <h4>Alerts &amp; Pop-ups</h4>
+                      <p class="hide">DCC powered individualised and customised periodic notifications sent to the farmers based on the intensity and severity of ground-truth observations, which include a pictorial representation of images along
+                        with recommendations.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/ground-truth-2.svg" class="img-fluid">
+                      <h4>Ground-Truthing</h4>
+                      <p class="hide">It is an integrated tool for Dynamic spot allocation, Data Management and Analytics depending on the crop, crop-variety, region, stage, stress and spectral analysis.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/farmer-app.svg" class="img-fluid">
+                      <h4>Farmer App</h4>
+                      <p class="hide">An application to interface with the farmer to provide information and customized alerts on a real-time basis.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/ground-truth-2.svg" class="img-fluid">
+                      <h4>Ground-truthing Platform</h4>
+                      <p class="hide">CropData uses a workflow-based field, task, resource and customer management platform that uses various Dr. Krishi tools to acquire data and provide customized analytics and advisory on an integrated basis.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/automated-task.svg" class="img-fluid">
+                      <h4>Automated Task Management</h4>
+                      <p class="hide">CropData uses a workflow-based task generation, verification, allocation, monitoring and performance management platform, which uses various Dr. Krishi tools for prioritization and effective task management.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-five" role="tabpanel" aria-labelledby="nav-five-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/gstm.svg" class="img-fluid">
+                      <h4>Geospatial Data Management</h4>
+                      <p class="hide">The GSTM system makes data available on a personalized basis to individual farmers, customized to their respective crop, location and vulnerability to different kinds of stress. It also provides CropData with
+                        the ability to generate customized alerts en masse. The GSTM system is powered by location and time-specific dynamic crop calendars which are further powered by advanced analytics, using machine learning
+                        algorithms, benchmark indices, weather correlations, impact models for yield and stress, across various zoom-levels.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/benchmark-indexing.svg" class="img-fluid">
+                      <h4>Benchmark Indexing &amp; Proxying</h4>
+                      <p class="hide">CropData uses an automated workflow-based benchmarking across various regions (22 levels) and times, for all data sets with an intelligent mechanism for proxying and data gap filling.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/indices.svg" class="img-fluid">
+                      <h4>Indices</h4>
+                      <p class="hide">GSTM powers various external and internal indices that provide data analytics across region and time.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/indices-and-kpi.svg" class="img-fluid">
+                      <h4>KPI Management</h4>
+                      <p class="hide">GSTM manages various key performance indicators across divisions, processes employees, customers, tasks, schedules, etc. and powers various tools associated with Balance Scorecards and Management Information
+                        Systems (MIS).</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="./drk-banner-medium_files/gstm-eye.svg" class="img-fluid">
+                      <h4>GSTM Eye</h4>
+                      <p class="hide">The various indices can be visualized on a dynamic map architecture, with the ability to have both high-level and granular view for quick decision making. GSTM and GSTM Eye can be interfaced with third-party
+                        data and platforms on a seamless basis.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="drk-gstm" class="gstm-view">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div class="gstm-map">
+              <a href="https://cropdata.in/gstm-eye/" class="map-screen" target="_blank">
+                <img alt="" src="./drk-banner-medium_files/laptop-mockup.png" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-4 side-text">
+            <h4 class="section-title title-border">Geo-Spatial Tile Management (GSTM)</h4>
+            <p>It's a proprietary data collection, analytics and visualization tool built on a geospatial and temporal architecture. </p>
+            <ul>
+              <li>It maintains internal and external data by location, geographic regions (levels), time, crop etc.
+              </li>
+              <li>It powers various workflows, processes and tools; helping CropData provide personalized services to our customers, based on their respective crop, variety, location, risk, stress and phenophase.
+              </li>
+              <li>It can be customized to manage and visualize various indices where data is available by location and time.</li>
+            </ul>
+            <a href="https://cropdata.in/gstm-eye/" class="map-linking" target="_blank">Explore it &nbsp;<i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="drk-news">
+      <div class="container news-and-report-container">
+        <h4 class="section-title title-border text-center">News &amp; Links</h4>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-9 col-xl-9">
+            <div class="card p-0 news-box">
+              <div class="card-header">
+                <h5 class="section-title m-0">News</h5>
+              </div>
+              <div class="card-body">
+                <div class="row" id="drkNewsList"><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb" style="display: block;">
+            <a href="https://krishijagran.com/agripedia/know-about-swarna-vasundhara-an-improved-variety-of-vegetable-soybean-developed-by-icar/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41575/soy_seeds.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Know about Swarna Vasundhara: An improved variety of vegetable soybean developed by ICAR</h5>
+                <div class="date">11-Dec-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb" style="display: block;">
+            <a href="https://krishijagran.com/agriculture-world/jk-launches-kashmiri-saffron-in-the-uae-market/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41570/saffron.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">J&amp;K launches Kashmiri Saffron in the UAE market</h5>
+                <div class="date">11-Dec-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb" style="display: block;">
+            <a href="https://krishijagran.com/agriculture-world/government-to-ban-6-more-pesticides-from-december-31/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41551/fertilizer.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Government to Ban 6 more Pesticides from December 31</h5>
+                <div class="date">10-Dec-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb" style="display: block;">
+            <a href="https://krishijagran.com/agriculture-world/details-of-msp-operations-during-kharif-marketing-season-2020-21/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41485/crops.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Details of MSP Operations during Kharif Marketing Season 2020-21</h5>
+                <div class="date">09-Dec-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb" style="display: block;">
+            <a href="https://krishijagran.com/agriculture-world/icar-felicitates-farmers-for-producing-novel-jackfruit-varieties-in-their-fields/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41440/jackfruit.png);"></div>
+              <div class="news-content">
+                <h5 class="title">ICAR Felicitates Farmers for Producing Novel Jackfruit Varieties in Their Fields</h5>
+                <div class="date">08-Dec-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb" style="display: block;">
+            <a href="https://krishijagran.com/agripedia/all-about-organic-spirulina-cultivation-basic-requirements-water-quality-nutrient-requirements-economics-much-more/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41453/tank.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">All about Organic Spirulina Cultivation: Basic Requirements, Water Quality, Nutrient Requirements, Economics &amp; much more..</h5>
+                <div class="date">08-Dec-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb" style="display: block;">
+            <a href="https://economictimes.indiatimes.com/news/economy/agriculture/icar-bags-global-award-from-fao-for-creating-awareness-about-soil-health/articleshow/79592297.cms" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://img.etimg.com/thumb/msid-79592342,width-300,imgsize-320873,,resizemode-4,quality-100/icar-indi.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">ICAR bags global award from FAO for creating awareness about soil health</h5>
+                <div class="date">06-Dec-20</div>
+                <div class="author">The Economic Times</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb" style="display: block;">
+            <a href="https://krishijagran.com/agriculture-world/tamil-nadu-agri-university-gets-patent-for-protein-based-crop-growth-booster/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41374/plant-growth.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Tamil Nadu Agri University Gets Patent for Protein-Based Crop Growth Booster</h5>
+                <div class="date">05-Dec-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb" style="display: block;">
+            <a href="https://www.thehindubusinessline.com/economy/agri-business/organic-farming-model-of-spices-research-body-gets-national-recognition/article33247045.ece#" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Organic farming model of spices research body gets national recognition</h5>
+                <div class="date">04-Dec-20</div>
+                <div class="author">The  Hindu Business Line</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb" style="display: block;">
+            <a href="https://www.thehindubusinessline.com/economy/agri-business/indo-gangetic-plain-high-in-atmospheric-ammonia/article33242733.ece" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Indo-Gangetic Plain ‘high in atmospheric ammonia’</h5>
+                <div class="date">03-Dec-20</div>
+                <div class="author">The Hindu Business Line</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/industry-news/role-of-agrochemicals-achieving-vision-of-5-trillion-economy-by-2025/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41245/agrochemicals.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Role of Agrochemicals: Achieving Vision of $5 Trillion Economy by 2025</h5>
+                <div class="date">01-Dec-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://agriculturepost.com/focus-on-value-addition-quality-safety-requirements-by-implementing-traceability-solutions-key-to-increase-export-of-indian-spices-spices-board/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://agriculturepost.com/wp-content/uploads/2020/12/Focus-on-value-addition-quality-safety-requirements-by-implementing-traceability-solutions-key-to-increase-export-of-Indian-spices-Spices-Board-735x400.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Focus on value addition, quality &amp; safety requirements by implementing traceability solutions key to increase export of Indian spices: Spices Board</h5>
+                <div class="date">01-Dec-20</div>
+                <div class="author">Agriculture Post.com</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/industry-news/war-against-stubble-burning-new-holland-agriculture-strengthens-equipment-range-of-india-s-largest-biomass-aggregator/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41078/whatsapp-image-2020-11-27-at-095824.jpeg);"></div>
+              <div class="news-content">
+                <h5 class="title">War against Stubble Burning - New Holland Agriculture Strengthens Equipment Range of India’s Largest Biomass Aggregator</h5>
+                <div class="date">27-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/featured/plants-and-weeds-as-herbicides/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41054/striga-weed-on-sorghum.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Plants and Weeds as Herbicides</h5>
+                <div class="date">26-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.thehindubusinessline.com/economy/agri-business/stubble-burning-india-inc-pitches-in-to-solve-the-recurring-issue-in-north-india/article33184082.ece" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Stubble burning: India Inc pitches in to solve the recurring issue in North India</h5>
+                <div class="date">26-Nov-20</div>
+                <div class="author">The Hindu Business Line</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/featured/coffee-plantations-became-hi-tech-thanks-to-smart-agro-technology/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41044/businesswirecom.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Coffee Plantations Became Hi-Tech, Thanks To Smart Agro Technology</h5>
+                <div class="date">26-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/news/icar-ctcri-develops-improved-tuber-crop-varieties-for-farmers/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/40997/tuber.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">ICAR-CTCRI Develops Improved Tuber Crop Varieties for Farmers</h5>
+                <div class="date">24-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agripedia/land-measurement-units-know-about-the-commonly-used-units-for-measurement-of-land-in-india/" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Land Measurement Units: Know about the commonly used units for Measurement of Land in India</h5>
+                <div class="date">24-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/digital-innovation-will-transform-agriculture-anna-roy-senior-advisor-niti-aayog/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/41002/anna.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Digital Innovation will Transform Agriculture: Anna Roy, Senior Advisor, NITI Aayog</h5>
+                <div class="date">24-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.thehindubusinessline.com/economy/agri-business/hit-with-pests-cotton-growers-in-gujarat-discontinue-picking/article33168056.ece" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Hit with pests, cotton growers in Gujarat discontinue picking</h5>
+                <div class="date">24-Nov-20</div>
+                <div class="author">The Hindu Business Line</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/timely-advisories-issued-by-weather-department-increased-farmer-s-income-by-50-percent-in-current-times/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/39278/farmer.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Timely Advisories Issued by Weather Department Increased Farmer’s Income by 50 percent in Current Times</h5>
+                <div class="date">23-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agripedia/do-you-know-which-is-the-best-variety-of-papaya/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/40895/red-lady_1.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Do you know Which is the Best Variety of Papaya?</h5>
+                <div class="date">21-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agripedia/horticulture-in-india-know-about-different-subsidy-schemes-application-process-and-much-more/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/40839/horticulture.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Horticulture in India – Know about Different Subsidy Schemes, Application Process and much more</h5>
+                <div class="date">18-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.thehindubusinessline.com/economy/agri-business/civil-aviation-ministry-allows-icrisat-to-use-drones-for-agri-research-activities/article33109451.ece" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Civil Aviation Ministry allows Icrisat to use drones for agri research activities</h5>
+                <div class="date">16-Nov-20</div>
+                <div class="author">The Hindu Business Line</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/featured/organic-weed-management-general-tips/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/40752/mulching.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Organic Weed Management – General Tips</h5>
+                <div class="date">16-Nov-20</div>
+                <div class="author">Krishi jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/pusa-bio-decomposer-a-billion-dollar-solution-for-stubble-burning-problem/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/40732/stubbles.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Pusa Bio-Decomposer – A “Billion Dollar” Solution for Stubble Burning Problem</h5>
+                <div class="date">15-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/farm-bill-2020-do-farmers-really-need-these-new-agricultural-legislation-a-complete-analysis/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/40737/pm.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Farm Bill 2020: Do Farmers Really Need These New Agricultural Legislation? A Complete Analysis</h5>
+                <div class="date">15-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agripedia/postharvest-technology-important-things-to-keep-in-mind-after-harvesting/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/40680/pexels-photo-575102.jpeg);"></div>
+              <div class="news-content">
+                <h5 class="title">Postharvest Technology: Important Things to Keep in Mind after Harvesting</h5>
+                <div class="date">12-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.agritechtomorrow.com/article/2020/11/cultivating-farmland-precisely-and-as-needed/12497" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://www.agritechtomorrow.com/images/articles/12497.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Cultivating Farmland Precisely and as Needed</h5>
+                <div class="date">12-Nov-20</div>
+                <div class="author">Agritech Tomorrow</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.agritechtomorrow.com/article/2020/11/smart-technology-in-farming/12486" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://www.agritechtomorrow.com/images/articles/12486.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Smart Technology in Farming</h5>
+                <div class="date">10-Nov-20</div>
+                <div class="author">Agritech Tomorrow</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/industry-news/hybrid-paddy-seeds-corteva-agriscience-slowly-making-inroads-into-bihar-jharkhand-providing-training-to-women-farmers/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/40528/hyd.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Hybrid Paddy Seeds: Corteva Agriscience Slowly Making Inroads into Bihar &amp; Jharkhand; Providing Training to Women Farmers</h5>
+                <div class="date">07-Nov-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://economictimes.indiatimes.com/news/economy/agriculture/indo-dutch-centre-of-excellence-for-vegetables-flowers-opens-in-kerala/articleshow/79084394.cms" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://img.etimg.com/thumb/msid-79084669,width-300,imgsize-881672,,resizemode-4,quality-100/1.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Indo-Dutch centre of excellence for vegetables, flowers opens in Kerala</h5>
+                <div class="date">06-Nov-20</div>
+                <div class="author">The Economic Times</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/pesticides-to-assume-pivotal-function-of-crop-protection-as-india-endeavors-to-help-horticulture/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/39818/worker.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Pesticides to assume pivotal function of crop protection as India endeavors to help horticulture</h5>
+                <div class="date">20-Oct-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.thehindubusinessline.com/economy/agri-business/groundnut-sesame-output-to-rise-due-to-timely-monsoon/article32894627.ece" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Groundnut, sesame output to rise due to timely monsoon</h5>
+                <div class="date">19-Oct-20</div>
+                <div class="author">The Hindubusiness line</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/good-news-new-high-yielding-wheat-variety-helps-farmers-in-this-village-to-double-their-yield/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://kj1bcdn.b-cdn.net/media/39684/wheat.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Good News! New High Yielding Wheat Variety Helps Farmers in this Village to Double their Yield</h5>
+                <div class="date">15-Oct-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://economictimes.indiatimes.com/news/economy/agriculture/indias-new-farm-laws-will-empower-farmers-help-them-earn-maximum-profits-israeli-envoy/articleshow/78601344.cms" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://img.etimg.com/thumb/msid-78601272,width-300,imgsize-50416,,resizemode-4,quality-100/capture.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">India's new farm laws will empower farmers, help them earn maximum profits: Israeli envoy</h5>
+                <div class="date">11-Oct-20</div>
+                <div class="author">The Economic Times</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.thehindubusinessline.com/economy/agri-business/export-ban-on-bangalore-rose-krishnapuram-onions-lifted/article32815543.ece" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Export ban on Bangalore Rose, Krishnapuram onions lifted</h5>
+                <div class="date">09-Oct-20</div>
+                <div class="author">The Hindu Business Line</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://economictimes.indiatimes.com/news/economy/agriculture/why-many-indian-farmers-and-politicians-oppose-pm-narendra-modis-farm-laws/articleshow/78237635.cms" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/WhymanyIndian-23092020152742.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Why many Indian farmers and politicians oppose PM Narendra Modi's farm laws</h5>
+                <div class="date">21-Sep-20</div>
+                <div class="author">The Economic Times</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/heavy-rains-may-cause-extensive-damage-to-summer-crops/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/HeavyRains-23092020142356.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Heavy rains may cause extensive damage to summer crops</h5>
+                <div class="date">18-Sep-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/good-news-farmers-in-haryana-and-punjab-will-get-farm-machines-at-a-discounted-price-to-control-pollution/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/FarmersinHaryana-23092020141500.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Farmers in Haryana and Punjab will Get Farm Machines at a Discounted Price to Control Pollution</h5>
+                <div class="date">17-Sep-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agripedia/utilizing-data-science-to-improve-indian-agronomy/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/UtilizingDataScience-23092020151102.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Utilizing Data Science to Improve Indian Agronomy</h5>
+                <div class="date">16-Sep-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/cotton-growing-areas-adversely-affected-in-haryana-due-to-waterlogging-white-fly-attack/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/CottonGrowingAreasAdverselyAffectedinHaryana.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Cotton Growing Areas Adversely Affected in Haryana due to Waterlogging &amp; White Fly Attack</h5>
+                <div class="date">11-Sep-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.downtoearth.org.in/news/agriculture/pesticides-management-bill-2020-will-hurt-farmers-livelihood-say-experts-73338" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/PesticidesManagementBill-23092020125524.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Pesticides Management Bill, 2020 will hurt farmers’ livelihood, say experts</h5>
+                <div class="date">11-Sep-20</div>
+                <div class="author">Down To Earth</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agripedia/complete-guide-to-pea-cultivation-top-varieties-climate-soil-requirement-fertilizer-treatment-pest-control-and-harvesting/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/CompleteGuidetoPeaCultivation.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Complete Guide to Pea Cultivation – Top Varieties, Climate &amp; Soil Requirement, Fertilizer Treatment, Pest Control and Harvesting</h5>
+                <div class="date">10-Sep-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.sciencedaily.com/releases/2020/09/200910120123.htm" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Diamondback moth uses plant defense substances as oviposition cues</h5>
+                <div class="date">10-Sep-20</div>
+                <div class="author">Science Daily</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.sciencedaily.com/releases/2020/09/200908131032.htm" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Detecting soil-surface ozone early can help prevent damage to grapes and apples</h5>
+                <div class="date">08-Sep-20</div>
+                <div class="author">Science Daily</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://economictimes.indiatimes.com/news/economy/agriculture/government-to-align-agriculture-with-changing-climate-and-rainfall-patterns/articleshow/77977409.cms" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/Governmenttoalignagriculture.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Government to align agriculture with changing climate and rainfall patterns</h5>
+                <div class="date">07-Sep-20</div>
+                <div class="author">The Economics Time</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://economictimes.indiatimes.com/news/economy/agriculture/good-monsoons-record-sowing-key-positives-for-agri-sector-care-ratings/articleshow/77975611.cms?utm_source=contentofinterest&amp;utm_medium=text&amp;utm_campaign=cppst" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/Goodmonsoons.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Good monsoons, record sowing key positives for agri sector: CARE Ratings</h5>
+                <div class="date">07-Sep-20</div>
+                <div class="author">The Economics Time</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://economictimes.indiatimes.com/news/economy/agriculture/view-empowering-the-indian-farmer/articleshow/77904360.cms" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/empowering.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">View: Empowering the Indian farmer</h5>
+                <div class="date">03-Sep-20</div>
+                <div class="author">The Economic Times</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.agweb.com/article/nasa-wants-farmers-view-derecho-damage" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/NASA.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">NASA Wants Farmers' View of Derecho Damage</h5>
+                <div class="date">03-Sep-20</div>
+                <div class="author">AgWeb</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.news18.com/news/india/india-ready-to-work-with-fao-to-assist-other-nations-in-tackling-locust-menace-says-agri-ministry-2846805.html" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/IndiaReadytoWorkwithFAO.png);"></div>
+              <div class="news-content">
+                <h5 class="title">India Ready to Work with FAO to Assist Other Nations in Tackling Locust Menace, Says Agri Ministry</h5>
+                <div class="date">03-Sep-20</div>
+                <div class="author">News 18 India</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.thehindu.com/sci-tech/agriculture/india-controlled-spread-of-locusts-using-modern-technologies-pm-modi/article32472815.ece" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/Locust.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">India controlled spread of locusts using modern technologies: PM Modi</h5>
+                <div class="date">29-Aug-20</div>
+                <div class="author">The Hindu</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/kharif-crop-acreage-up-further-oilseed-area-jumps-by-13-rice-sowing-up-10/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/Kharif_crop.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Kharif Crop acreage up further; Oilseed area jumps by 13%, Rice sowing up 10%</h5>
+                <div class="date">29-Aug-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/news/weather-warning-these-parts-of-north-india-to-get-heavy-rain-till-saturday-red-alert-issued/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/Weather_worning.jpeg);"></div>
+              <div class="news-content">
+                <h5 class="title">Weather Warning! These Parts of North India to Get Heavy Rain till Saturday; Red Alert Issued</h5>
+                <div class="date">28-Aug-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://economictimes.indiatimes.com/news/economy/agriculture/excessive-rains-likely-to-affect-crop-output/articleshow/77790736.cms?utm_source=contentofinterest&amp;utm_medium=text&amp;utm_campaign=cppst" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/Excessive-rains.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Excessive rains raising fears of floods and pest attack, likely to affect crop output</h5>
+                <div class="date">28-Aug-20</div>
+                <div class="author">The Economics Time</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://economictimes.indiatimes.com/news/economy/agriculture/crop-planting-soars-to-a-record-bumper-harvest-expected/articleshow/77803250.cms" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/Crop-planting-soars.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Crop planting soars to a record, bumper harvest expected</h5>
+                <div class="date">28-Aug-20</div>
+                <div class="author">The Economics Time</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.thehindu.com/news/national/karnataka/study-on-climate-underlines-need-to-change-cropping-pattern/article32450227.ece" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/Climate_change.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Study on climate underlines need to change cropping pattern</h5>
+                <div class="date">27-Aug-20</div>
+                <div class="author">The Hindu</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.downtoearth.org.in/news/agriculture/new-discovery-of-protein-in-plants-immune-systems-can-help-create-superior-crops-boost-agriculture-73083" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/New-discovery-of-protein.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">New discovery of protein in plants’ immune systems can help create superior crops, boost agriculture</h5>
+                <div class="date">27-Aug-20</div>
+                <div class="author">Down To Earth</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/how-to-protect-your-crops-from-fall-armyworm-faw/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/Fall-armyworm.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">How to Protect your Crops from Fall Armyworm (FAW)?</h5>
+                <div class="date">26-Aug-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/latest-news-icici-bank-deploys-satellite-data-to-assess-agriculture-loans-in-india/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/ICICI-Bank-Deploys.jpeg);"></div>
+              <div class="news-content">
+                <h5 class="title">Latest News! ICICI Bank Deploys Satellite Data to Assess Agriculture Loans in India</h5>
+                <div class="date">26-Aug-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://economictimes.indiatimes.com/news/economy/agriculture/above-average-monsoons-brightens-kharif-prospects-conducive-for-more-accommodation-by-rbi-report/articleshow/77723810.cms?utm_source=contentofinterest&amp;utm_medium=text&amp;utm_campaign=cppst" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/Aboveaveragemonsoons.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Above average monsoons brightens Kharif prospects, conducive for more accommodation by RBI: Report</h5>
+                <div class="date">24-Aug-20</div>
+                <div class="author">The Economics Time</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.sciencedaily.com/releases/2020/08/200824165633.htm" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Climate change and land use are accelerating soil erosion by water</h5>
+                <div class="date">24-Aug-20</div>
+                <div class="author">Science Daily</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/researchers-in-kashmir-develop-new-hybrid-variety-of-tomato-for-farmers/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/Researchers-in-Kashmir.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Researchers in Kashmir Develop New Hybrid Variety of Tomato for Farmers</h5>
+                <div class="date">23-Aug-20</div>
+                <div class="author">Krishi Jagaran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/industry-news/farmpal-helps-increase-farmer-s-earnings-and-mitigate-rural-farm-distress/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/farm-2.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Farmpal helps Increase Farmer’s earnings and mitigate rural farm distress</h5>
+                <div class="date">20-Aug-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://agritimes.co.in/crops/crop-protection/locust-control-operations-carried-out-at-10-places-in-rajasthan-2-places-in-gujarat" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/locust_control.jpeg);"></div>
+              <div class="news-content">
+                <h5 class="title">Locust control operations carried out at 10 places in Rajasthan, 2 places in Gujarat</h5>
+                <div class="date">20-Aug-20</div>
+                <div class="author">Agriculture Times</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agripedia/dragon-fruit-market-in-india-business-prospects-quite-healthy/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/dragon.png);"></div>
+              <div class="news-content">
+                <h5 class="title">Dragon Fruit Market in India – Business Prospects Quite Healthy</h5>
+                <div class="date">19-Aug-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://www.nature.com/articles/s41597-020-00612-0" target="_blank">
+            <div class="img-thumb" style="background-image: url(images/news-default.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">The green and blue crop water requirement WATNEEDS model and its global gridded outputs</h5>
+                <div class="date">18-Aug-20</div>
+                <div class="author">Scientific Data</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agriculture-world/india-secures-top-position-with-highest-number-of-organic-farmers-sikkim-becomes-worlds-first-fully-organic-state/" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/organic-1.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">India secures top position with highest number of organic farmers; Sikkim becomes world's first fully organic state</h5>
+                <div class="date">17-Aug-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://agritimes.co.in/farm-equipment/agri-technology/safety-and-regulation-of-gm-crops-in-india-by-dr-shivendra-bajaj-of-fsii" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/safety.jpeg);"></div>
+              <div class="news-content">
+                <h5 class="title">Safety and regulation of GM crops in India by Dr Shivendra Bajaj of FSII</h5>
+                <div class="date">17-Aug-20</div>
+                <div class="author">Agriculture Times</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://agritimes.co.in/crops/kharif-sowing-of-all-crops-up-by-8-54-at-1015-58-lakh-hectares-as-on-august-14" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/corn.jpeg);"></div>
+              <div class="news-content">
+                <h5 class="title">Kharif sowing of all crops up by 8.54% at 1015.58 lakh hectares as on August 14</h5>
+                <div class="date">15-Aug-20</div>
+                <div class="author">Agriculture Times</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://krishijagran.com/agripedia/go-for-smart-farming-for-a-tomato-revolution/?utm_source=vuukle&amp;utm_medium=talk_of_town" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/hydroponic-tomatoes-2.jpg);"></div>
+              <div class="news-content">
+                <h5 class="title">Go for Smart Farming for a Tomato Revolution!</h5>
+                <div class="date">14-Aug-20</div>
+                <div class="author">Krishi Jagran</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://agritimes.co.in/farm-equipment/agri-technology/lsquo-krishi-megh-is-a-step-forward-towards-digital-agriculture-of-new-india-says-tomar" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/krishi_megh.jpeg);"></div>
+              <div class="news-content">
+                <h5 class="title">‘Krishi Megh is a step forward towards digital agriculture of New India’, says Tomar</h5>
+                <div class="date">11-Aug-20</div>
+                <div class="author">Agriculture Times</div>
+              </div>
+            </a>
+          </div><div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 content news-thumb">
+            <a href="https://agritimes.co.in/horticulture/tata-steel-nest-in-launches-indias-first-smart-warehouse-for-onion-storage" target="_blank">
+            <div class="img-thumb" style="background-image: url(https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/news/tata_steel.jpeg);"></div>
+              <div class="news-content">
+                <h5 class="title">Tata Steel’ Nest-In launches India’s first smart warehouse for onion storage</h5>
+                <div class="date">04-Aug-20</div>
+                <div class="author">Agriculture Times</div>
+              </div>
+            </a>
+          </div></div>
+                <div class="text-center">
+                  <a href="https://cropdata.in/dr-krishi.html#!" class="my-3 w-auto btn btn-dark" id="seeMore">See More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-3 col-xl-3">
+            <div class="card report-box p-0">
+              <div class="card-header">
+                <h4 class="section-title m-0">Important Links</h4>
+              </div>
+
+              <div class="card-body p-0">
+                <ul class="report-list" id="drkReportList"><li>Locust News<div class="download-section"><div><a href="https://ppqs.gov.in/sites/default/files/dlsb_i_fn_july_2020.pdf" target="_blank"><i class="fas fa-file-download"></i></a></div></div></li><li>Kharif Agro-Advisory for Farmers<div class="download-section"><div><a href="https://icar.org.in/sites/default/files/Kharif%20agro-advisory%20for%20farmers.pdf" target="_blank"><i class="fas fa-file-download"></i></a></div></div></li><li>Indian Horticulture Publication May-June 2020<div class="download-section"><div><a href="https://icar.org.in/sites/default/files/IH%20May-June%202020_Final.pdf" target="_blank"><i class="fas fa-file-download"></i></a></div></div></li></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a id="back-to-top" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+    <footer><div class="msg-box"></div>
+<div class="container footer-menu-section">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+      <h5>Platforms</h5>
+      <ul class="foooter-menu">
+        <li><a href="https://cropdata.in/dr-krishi.html">Dr. Krishi</a></li>
+        <li><a href="https://cropdata.in/agriota.html">Agriota</a></li>
+        <li><a href="https://cropdata.in/agdata.html">AgData</a></li>
+        <li><a href="https://cropdata.in/krishiCo.html">KrishiCo</a></li>
+      </ul>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+      <h5>Products &amp; Services</h5>
+      <ul class="foooter-menu">
+        <li><a class="scroll" data-offset="200" href="https://cropdata.in/products.html#customized-advisory">Customized Advisory and Alerts</a></li>
+        <li><a class="scroll" data-offset="200" href="https://cropdata.in/products.html#e-marketplace">E-Marketplace</a></li>
+        <li><a class="scroll" data-offset="200" href="https://cropdata.in/products.html#value-added-services">Value-added Services</a></li>
+        <li><a class="scroll" data-offset="200" href="https://cropdata.in/products.html#ip-licensing">IP Licensing</a></li>
+        <li><a class="scroll" data-offset="200" href="https://cropdata.in/products.html#indices">Indices</a></li>
+      </ul>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+      <h5>CropData</h5>
+      <ul class="foooter-menu">
+        <li><a href="https://cropdata.in/about.html">About Us</a></li>
+        <li><a href="https://cropdata.in/csr.html">CSR</a></li>
+        <li><a class="scroll" data-offset="150" href="https://cropdata.in/agriota.html#agriota-commodity">Commodities</a>
+        </li><li><a href="https://cropdata.in/career.html">Careers</a></li>
+        <li><a href="https://cropdata.in/news.html">News &amp; Media</a></li>
+        <li><a href="https://cropdata.in/partners.html">Partners</a></li>
+      </ul>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+      <h5>Contact Us</h5>
+      <ul class="foooter-menu">
+        <li>
+          <i class="fas fa-map-marker-alt"></i>
+          <a href="https://www.google.com/maps?ll=21.120899,79.048064&amp;z=19&amp;t=m&amp;hl=en&amp;gl=IN&amp;mapclient=embed&amp;cid=5506432566055273817" target="_blank">11/1, IT Park, Gayatri Nagar, Parsodi, Nagpur 440022</a></li>
+        <li><i class="fas fa-envelope"></i> <a href="mailto:info@cropdata.in" target="_blank">info@cropdata.in</a>
+        </li>
+        <li><i class="fas fa-phone" style="-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-ms-transform: rotate(90deg);-o-transform: rotate(90deg);transform: rotate(90deg);"></i>
+          <a href="tel:+917122249901">+91-7122249901 - 06</a></li>
+      </ul>
+      <ul class="social-links">
+        <li>
+          <a href="https://www.facebook.com/CropDataTechnology" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/CropData_in" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/cropdata" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/cropdata/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UC4bawDlR-2SGOXST-FnoTdQ" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container-fluid copyright_text py-3">
+  <div class="container text-center">
+    <p class="m-0">© 2020 CropData Technology Private Limited. All rights reserved. | <a href="https://cropdata.in/privacy-and-terms.html"> Privacy Policy &amp; Terms of Use</a></p>
+  </div>
+</div></footer>
+  </main>
+
+
+  <script src="./drk-banner-medium_files/jquery-3.5.1.min.js.download"></script>
+  <script src="./drk-banner-medium_files/popper.min.js.download"></script>
+  <script src="./drk-banner-medium_files/bootstrap.min.js.download"></script>
+  <script src="./drk-banner-medium_files/jquery.jConveyorTicker.min.js.download"></script>
+
+
+  <script type="text/javascript" src="./drk-banner-medium_files/jquery.vticker-min.js.download"></script>
+  <script src="./drk-banner-medium_files/main.js.download" type="text/javascript"></script>
+  <script type="text/javascript" src="./drk-banner-medium_files/ajax-loading.js.download"></script>
+
+
+<div id="ajaxLoading" style="position: fixed; inset: 0px; margin: auto; padding: 8px; text-align: center; vertical-align: middle; width: 85px; height: 85px; z-index: 1000; background: rgba(0, 0, 0, 0.7); border-radius: 4px; display: none;"><img src="./drk-banner-medium_files/ajax-loading.gif" style="margin-bottom:8px;width:45px;height:45px"><p style="margin:0;font-size:14px;color:#fff">loading...</p></div></body></html>

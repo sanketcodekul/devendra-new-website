@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>CropData-Agriota</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+    integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+
+</head>
+
+<body>
+ 
+  <main>
+    <header id="js-header">
+      <div class="container menu-bar-container">
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 logo-section">
+            <a href="cropdata.in/index.html" class="home-logo"><img alt="" src="./Images/cropdata-logo-white.svg"
+                class="img-fluid"></a>
+            <a href="cropdata.in/index.html" class="other-logo"><img alt="" src="./Images/cropdata-logo-blue.svg"
+                class="img-fluid"></a>
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 menu-bar">
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="aboutus.html">About Us</a></li>
+              <li class="submenu_parent">
+                <a class="mouse-pointer">Platforms <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="submenu">
+                  <li><a href="Dr-krishi.html">Dr. Krishi</a></li>
+                  <li><a href="agdata.html">AgData</a></li>
+                  <li><a href="agriota.html">Agriota</a></li>
+                  <li><a href="krishico.html">KrishiCo</a></li>
+                </ul>
+              </li>
+              <li><a href="product&service.html">Products &amp; Services</a></li>
+              <li><a href="partner.html">Partners</a></li>
+              <li class="submenu_parent">
+                <a class="mouse-pointer">CropData <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="submenu">
+                  <li><a href="news.html">News</a></li>
+                  <li><a href="csr.html">CSR</a></li>
+                  <li><a href="agriota.html#agriota-commodity"
+                    data-offset="180">Commodities</a></li>
+                  <li><a href="marketData.html">Market Data</a></li>
+                  <li><a href="career.html">Careers</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="joinus.html">Join Us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner" style="background-color: #9078d8;">
+      <picture>
+        <source srcset="Images/banners/agriota-banner.jpg" media="(min-width: 1024px)" class="img-fluid">
+        <source srcset="Images/banners/agriota-banner-medium.jpg" media="(min-width: 400px)" class="img-fluid">
+        <source srcset="Images/banners/agriota-banner-small.jpg" media="(min-width: 230px)" class="img-fluid">
+        <img alt="" src="Images/banners/agriota-banner.jpg" width="100%" class="img-fluid">
+      </picture>
+    </section>
+
+    <nav class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 quick_links activeMenu p-0 text-center" id="quick_links">
+      <div class="nav nav-pills">
+        <ul class="m-0 p-0">
+          <li class="nav-item">
+            <a class="scroll nav-link" href="#agriota-introduction" data-offset="180">Introduction</a>
+          </li>
+          <li class="nav-item">
+            <a class="scroll nav-link" href="#agriota-features" data-offset="230">Engines &amp; Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="scroll nav-link" href="#agriota-gstm" data-offset="180">GSTM</a>
+          </li>
+          <li class="nav-item">
+            <a class="scroll nav-link" href="#agriota-commodity" data-offset="180">Commodities</a>
+          </li>
+          <li class="nav-item">
+            <a class="scroll nav-link" href="#agriota-video" data-offset="180">E-Marketplace</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="market-data.html" data-offset="180">Market Data</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="scroll nav-link" href="#franchise-section" data-offset="180">Join Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="scroll nav-link" href="#agriota-news" data-offset="180">News &amp; Links</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="agriota-introduction">
+      <div class="container intro-con">
+        <div class="row justify-content-end">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="box">
+              <h2 class="section-title title-border pb-1">Agriota</h2>
+              <img alt="" src="Images/smallicons/agriota-icon.svg" class="img-fluid img" width="200">
+              <p class="para">Agriota E-Marketplace is an advanced agricultural commodities marketplace platform with a
+                range of services for contract, bid and money management, entity management, accounting, billing,
+                reconciliation, analytics, fraud, risk and regulatory compliance management etc. The Agriota ecosystem
+                is a blockchain-based agriculture forward marketplace that uses one of its kind multi-tier escrow
+                banking system for money management. It is powered by CropData's contract aggregation, open auction, and
+                advance management, variance management, primary and secondary market tools and logistics management
+                while providing neutrality, traceability and trust.</p>
+              <ul>
+                <li>
+                  <strong>Neutrality: </strong>An unbiased system for all counterparties, ensures total transparency and
+                  visibility in price discovery, associated costs and unforeseen risks.
+                </li>
+                <li>
+                  <strong>Traceability: </strong>End-to-end transparency, from last-mile verification and monitoring to
+                  delivery, in a workflow-based blockchain environment.
+                </li>
+                <li>
+                  <strong>Trust: </strong>Introducing a proprietary banking system with multi-tier escrow structure for
+                  secured money management.
+                </li>
+              </ul>
+              <div><a
+                  href="https://cdtuatts.blob.core.windows.net/cdtuatts/demo/cropdata-portal/brochures/agriota-brochure.pdf"
+                  class="mt-2 w-auto btn btn-dark" target="_blank">Agriota Brochure</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="agriota-features">
+      <div class="feature-container">
+        <div class="container">
+          <h2 class="section-title text-center title-border">Engines &amp; Tools</h2>
+          <nav style="overflow: auto;">
+            <div class="nav nav-tabs border-0" id="nav-tab" role="tablist" style="    display: inline-flex;">
+              <a class="nav-item nav-link active" id="nav-one-tab" data-toggle="tab" href="#nav-one" role="tab"
+                aria-controls="nav-one" aria-selected="true">Price Discovery</a>
+
+              <a class="nav-item nav-link" id="nav-two-tab" data-toggle="tab" href="#nav-two" role="tab"
+                aria-controls="nav-two" aria-selected="false">Cloud Infrastructure, Support Systems, Technologies</a>
+
+              <a class="nav-item nav-link" id="nav-three-tab" data-toggle="tab" href="#nav-three" role="tab"
+                aria-controls="nav-three" aria-selected="false">Operations (Logistics, Scheduling, Proximity)</a>
+
+              <a class="nav-item nav-link" id="nav-four-tab" data-toggle="tab" href="#nav-four" role="tab"
+                aria-controls="nav-four" aria-selected="false">Risk Monitoring and Management</a>
+
+              <a class="nav-item nav-link" id="nav-five-tab" data-toggle="tab" href="#nav-five" role="tab"
+                aria-controls="nav-five" aria-selected="false">GSTM</a>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/open-auction.svg" class="img-fluid">
+                      <h4>Open Auction</h4>
+                      <p class="hide">CropData's philosophy is to provide complete transparency of the highest bids and
+                        price discovery process as a function of the last traded contract price.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/aggregation.svg" class="img-fluid">
+                      <h4>Aggregation</h4>
+                      <p class="hide">CropData uses advanced structured mathematics to aggregate smaller farmers into
+                        larger lots to increase their marketability.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/price-analytics.svg" class="img-fluid">
+                      <h4>Price Analytics</h4>
+                      <p class="hide">The platform provides deep trade analytics on various levels by transaction,
+                        commodity, region etc. on a rolling basis for in-depth understanding and visibility in
+                        convenient reports, charts and geospatial interfaces.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/auto-gap-filling.svg" class="img-fluid">
+                      <h4>Auto-gap Filling</h4>
+                      <p class="hide">In case of counterparty default, the platform provides substitutes on an automatic
+                        basis.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/secondary-market.svg" class="img-fluid">
+                      <h4>Secondary Market</h4>
+                      <p class="hide">E-marketplace allows all the buy-side customers with a secondary
+                        marketing option, where they can re-trade and liquidate their existing positions.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
+              <div class="container-fluid box">
+                <div class="row">
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/blockchain.svg" class="img-fluid">
+                      <h4>Blockchain</h4>
+                      <p class="hide">The E-marketplace trades smart contracts powered by Blockchain. The complete
+                        trading ecosystem is integrated using Blockchain for seamlessly facilitating the trading cycle.
+                      </p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/escrow.svg" class="img-fluid">
+                      <h4>Escrow Banking</h4>
+                      <p class="hide">CropData uses a "multi-tier escrow architect" for money management for the
+                        E-marketplace Platforms from the management of account, advances, trades, settlement and
+                        reconciliation. It is developed in collaboration with one of the largest Indian banks, to
+                        prevent any mismanagement of funds.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/straight-through.svg" class="img-fluid">
+                      <h4>Straight-through Processing</h4>
+                      <p class="hide">We are one of the only platforms that provides real-time settlement and money
+                        movement, unlike traditional T+n marketplaces.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/taxation.svg" class="img-fluid">
+                      <h4>Taxation &amp; Compliance Management</h4>
+                      <p class="hide">For customer convenience, we provide an end-to-end ledger of the trade on a
+                        rolling basis, by entity, commodity, region, levels, across the organization and also provide
+                        analytics for a deeper understanding of the transactions at your finger-tips.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/end-to-end-accounting.svg" class="img-fluid">
+                      <h4>End-to-end Accounting</h4>
+                      <p class="hide">For customer convenience, we provide an end-to-end ledger of the trade
+                        on a rolling basis, by an entity, commodity, region etc. levels, across the organization and
+                        also provide analytics for a deeper understanding of the transactions at your finger-tips.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/advance-cloud.svg" class="img-fluid">
+                      <h4>Cloud Infrastructure</h4>
+                      <p class="hide">CropData has highly distributed and rapidly expanding operations and hence uses
+                        one the most advanced cloud architectures developed by the largest cloud infrastructure and
+                        managing service partners in the world, with disaster recovery through redundant infrastructure
+                        management.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
+              <div class="container-fluid box">
+                <div class="row">
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/testing-and-certification.svg" class="img-fluid">
+                      <h4>Testing &amp; Certification</h4>
+                      <p class="hide">In staying true to CropData's core philosophy of complete transparency and
+                        traceability of CropData's quality, we provide rolling certification throughout production and
+                        at delivery, in standardized formats with deeper analytics than traditional Platforms.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/warehouse.svg" class="img-fluid">
+                      <h4>Delivery &amp; Logistics Management</h4>
+                      <p class="hide">The ecosystem provides end-to-end farm to logistic hub delivery, logistics
+                        monitoring and management services.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/advance-management.svg" class="img-fluid">
+                      <h4>Advance Management</h4>
+                      <p class="hide">To manage buy-side counterparty risk, the Platform monitors and alerts the buyer
+                        on downward movement of the market and counter-balances the risk with margin top-up.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/circuit-breaker.svg" class="img-fluid">
+                      <h4>Circuit-Breakers</h4>
+                      <p class="hide">The Platform prevents market price manipulation through various features,
+                        including automated circuit breakers.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-five" role="tabpanel" aria-labelledby="nav-five-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/gstm.svg" class="img-fluid">
+                      <h4>Geospatial Data Management</h4>
+                      <p class="hide">The GSTM system makes data available on a personalized basis to individual
+                        farmers, customized to their respective crop, location and vulnerability to different kinds of
+                        stress. It also provides CropData with the ability to generate customized alerts en masse. The
+                        GSTM system is powered by location and time-specific dynamic crop calendars which are further
+                        powered by advanced analytics, using machine learning algorithms, benchmark indices, weather
+                        correlations, impact models for yield and stress, across various zoom-levels.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/benchmark-indexing.svg" class="img-fluid">
+                      <h4>Benchmark Indexing &amp; Proxying</h4>
+                      <p class="hide">CropData uses an automated workflow-based benchmarking across various regions (22
+                        levels) and time for all data sets with an intelligent mechanism for proxying and data gap
+                        filling.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/indices.svg" class="img-fluid">
+                      <h4>Indices</h4>
+                      <p class="hide">GSTM powers various external and internal indices that provide data analytics
+                        across region and time.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/indices-and-kpi.svg" class="img-fluid">
+                      <h4>KPI Management</h4>
+                      <p class="hide">GSTM manages various key performance indicators across divisions, processes
+                        employees, customers, tasks, schedules, etc. and powers various tools associated with Balance
+                        Scorecards and Management Information Systems (MIS).</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/gstm-eye.svg" class="img-fluid">
+                      <h4>GSTM Eye</h4>
+                      <p class="hide">The various indices can be visualized on a dynamic map architecture, with the
+                        ability to have both high-level and granular view for quick decision making. GSTM and GSTM Eye
+                        can be interfaced with third-party data and platforms on a seamless basis.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gstm-view" id="agriota-gstm">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div class="gstm-map">
+              <a href="gstm-eye/" class="map-screen" target="_blank">
+                <img alt="" src="Images/smallicons/laptop-mockup.png" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-4 side-text">
+            <h4 class="section-title title-border">Geo-Spatial Tile Management (GSTM)</h4>
+            <p>It's a proprietary data collection, analytics and visualization tool built on a geospatial and temporal
+              architecture.</p>
+            <ul>
+              <li>It maintains internal and external data by location, geographic regions (levels), time, crop etc.</li>
+              <li>It powers various workflows, processes and tools; helping CropData provide personalized services to
+                our customers, based on their respective portfolio; crop, variety, location, price, margin, risk, value,
+                quantity and quality.</li>
+              <li>It can be customized to manage and visualize various indices where data is available by location and
+                time.</li>
+            </ul>
+            <a href="gstm-eye/" class="map-linking" target="_blank">Explore it &nbsp;<i
+                class="fas fa-arrow-right"></i></a>
+            <div id="agri_commo_list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="commo-view" id="agriota-commodity">
+      <div class="container">
+        <!-- <h3 class="section-subtitle text-center">Commodity Features</h3> -->
+        <h2 class="section-title text-center title-border">Agricultural Commodities</h2>
+
+        <div class="accordion commodities-list" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingCereals">
+              <h2 class="mb-0">
+                <button class="btn d-block w-100 text-left" type="button" data-toggle="collapse" data-target="#Cereals"
+                  aria-expanded="true" aria-controls="Cereals">Cereals <i class="fas fa-angle-up"></i></button>
+              </h2>
+            </div>
+
+            <div id="Cereals" class="collapse show" aria-labelledby="headingCereals" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a href="commodity.html?name=bajra&amp;id=2" data-id="bajra" data-info="2"><img alt=""
+                        src="Images/smallicons/bajra.svg" class="img-fluid"> Bajra</a></li>
+                  <li><a href="commodity.html?name=jowar&amp;id=20" data-id="jowar" data-info="20"><img alt=""
+                        src="Images/smallicons/jowar.svg" class="img-fluid"> Jowar</a></li>
+                  <li><a href="commodity.html?name=maize&amp;id=21" data-id="maize" data-info="21"><img alt=""
+                        src="Images/smallicons/maize.svg" class="img-fluid"> Maize</a></li>
+                  <li><a href="commodity.html?name=paddy&amp;id=25" data-id="paddy" data-info="25"><img alt=""
+                        src="Images/smallicons/paddy.svg" class="img-fluid"> Paddy</a></li>
+                  <li><a href="commodity.html?name=paddy-basmati&amp;id=116" data-id="paddy-basmati"
+                      data-info="116"><img alt="" src="Images/smallicons/paddy-2.svg" class="img-fluid"> Paddy
+                      Basmati</a></li>
+                  <li><a data-id="wheat" data-info="33" class="disabled"><img alt="" src="Images/smallicons/wheat-2.svg"
+                        class="img-fluid"> Wheat</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingPulses">
+              <h2 class="mb-0">
+                <button class="btn d-block w-100 text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#Pulses" aria-expanded="false" aria-controls="Pulses">Pulses <i
+                    class="fas fa-angle-up"></i></button>
+              </h2>
+            </div>
+            <div id="Pulses" class="collapse" aria-labelledby="headingPulses" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a href="commodity.html?name=arhar&amp;id=1" data-id="arhar" data-info="1"><img alt=""
+                        src="Images/smallicons/arhar.svg" class="img-fluid"> Arhar</a></li>
+                  <li><a data-id="gram" data-info="16" class="disabled"><img alt="" src="Images/smallicons/gram.svg"
+                        class="img-fluid"> Gram</a></li>
+                  <li><a href="commodity.html?name=moong&amp;id=22" data-id="moong" data-info="22"><img alt=""
+                        src="Images/smallicons/moong.svg" class="img-fluid"> Moong</a></li>
+                  <li><a href="commodity.html?name=urad&amp;id=32" data-id="urad" data-info="32"><img alt=""
+                        src="Images/smallicons/urad.svg" class="img-fluid"> Urad</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingOil_Seeds">
+              <h2 class="mb-0">
+                <button class="btn d-block w-100 text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#oil_Seeds" aria-expanded="false" aria-controls="oil_Seeds">Oil Seeds <i
+                    class="fas fa-angle-up"></i></button>
+              </h2>
+            </div>
+            <div id="oil_Seeds" class="collapse" aria-labelledby="headingOil_Seeds" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a data-id="castor-Seed" data-info="5" class="disabled"><img alt=""
+                        src="Images/smallicons/castor.svg" class="img-fluid"> Castor Seed</a></li>
+                  <li><a href="commodity.html?name=groundnut&amp;id=18" data-id="groundnut" data-info="18"><img alt=""
+                        src="Images/smallicons/groundnut.svg" class="img-fluid"> Groundnut</a></li>
+                  <li><a data-id="mustard" data-info="23" class="disabled"><img alt=""
+                        src="Images/smallicons/mustard.svg" class="img-fluid"> Mustard</a></li>
+                  <li><a data-id="sesame" data-info="28" class="disabled"><img alt="" src="Images/smallicons/sesame.svg"
+                        class="img-fluid"> Sesame</a></li>
+                  <li><a href="commodity.html?name=soybean&amp;id=29" data-id="soybean" data-info="29"><img alt=""
+                        src="Images/smallicons/soybean.svg" class="img-fluid"> Soybean</a></li>
+                  <li><a data-id="sunflower-seed" data-info="43" class="disabled"><img alt=""
+                        src="Images/smallicons/sunflower-seed.svg" class="img-fluid">Sunflower Seed</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFibers">
+              <h2 class="mb-0">
+                <button class="btn d-block w-100 text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#fibers" aria-expanded="false" aria-controls="fibers">Commercial &amp; Fibers <i
+                    class="fas fa-angle-up"></i></button>
+              </h2>
+            </div>
+            <div id="fibers" class="collapse" aria-labelledby="headingFibers" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a data-id="cotton" data-info="8" class="disabled"><img alt="" src="Images/smallicons/cotton.svg"
+                        class="img-fluid"> Cotton</a></li>
+                  <li><a data-id="cashewnut" data-info="37" class="disabled"><img alt=""
+                        src="Images/smallicons/cashewnut.svg" class="img-fluid"> Cashewnut</a></li>
+                  <li><a href="commodity.html?name=guar-seed&amp;id=19" data-id="guar-seed" data-info="19"><img alt=""
+                        src="Images/smallicons/guar-seed.svg" class="img-fluid"> Guar Seed</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingSpices">
+              <h2 class="mb-0">
+                <button class="btn d-block w-100 text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#spices" aria-expanded="false" aria-controls="spices">Spices <i
+                    class="fas fa-angle-up"></i></button>
+              </h2>
+            </div>
+
+            <div id="spices" class="collapse" aria-labelledby="headingSpices" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a data-id="coriander-seed" data-info="7" class="disabled"><img alt=""
+                        src="Images/smallicons/coriander.svg" class="img-fluid"> Coriander Seed</a></li>
+                  <li><a data-id="cumin-seed" data-info="10" class="disabled"><img alt=""
+                        src="Images/smallicons/cumin.svg" class="img-fluid"> Cumin Seed</a> </li>
+                  <li><a href="commodity.html?name=dry-chilli&amp;id=11" data-id="dry-chilli" data-info="11"><img alt=""
+                        src="Images/smallicons/dry-chilli.svg" class="img-fluid"> Dry Chilli</a></li>
+                  <li><a data-id="fennel-seed" data-info="12" class="disabled"><img alt=""
+                        src="Images/smallicons/fennel.svg" class="img-fluid"> Fennel Seed</a> </li>
+                  <li><a data-id="fenugreek" data-info="13" class="disabled"><img alt=""
+                        src="Images/smallicons/fenugreek.svg" class="img-fluid"> Fenugreek</a> </li>
+                  <li><a data-id="garlic" data-info="14" class="disabled"><img alt="" src="Images/smallicons/garlic.svg"
+                        class="img-fluid"> Garlic</a></li>
+                  <li><a data-id="ginger" data-info="15" class="disabled"><img alt="" src="Images/smallicons/ginger.svg"
+                        class="img-fluid"> Ginger</a></li>
+                  <li><a href="commodity.html?name=turmeric&amp;id=31" data-id="turmeric" data-info="31"><img alt=""
+                        src="Images/smallicons/turmeric.svg" class="img-fluid"> Turmeric</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFruits">
+              <h2 class="mb-0">
+                <button class="btn d-block w-100 text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#fruits" aria-expanded="false" aria-controls="fruits">Fruits <i
+                    class="fas fa-angle-up"></i></button>
+              </h2>
+            </div>
+
+            <div id="fruits" class="collapse" aria-labelledby="headingFruits" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a data-id="apple" data-info="34" class="disabled"><img alt="" src="Images/smallicons/apple.svg"
+                        class="img-fluid"> Apple</a></li>
+                  <li><a data-id="banana" data-info="35" class="disabled"><img alt="" src="Images/smallicons/banana.svg"
+                        class="img-fluid"> Banana</a></li>
+                  <li><a data-id="grapes" data-info="39" class="disabled"><img alt="" src="Images/smallicons/grapes.svg"
+                        class="img-fluid"> Grapes</a></li>
+                  <li><a data-id="litchi" data-info="40" class="disabled"><img alt="" src="Images/smallicons/litchi.svg"
+                        class="img-fluid"> Litchi</a></li>
+                  <li><a data-id="mango" data-info="41" class="disabled"><img alt="" src="Images/smallicons/mango.svg"
+                        class="img-fluid"> Mango</a></li>
+                  <li><a href="commodity.html?name=pomegranate&amp;id=42" data-id="pomegranate" data-info="42"><img
+                        alt="" src="Images/smallicons/pomegranate.svg" class="img-fluid"> Pomegranate</a></li>
+                  <!-- <li><a class="disabled"><img alt="" src="images/icon/mandarin.svg" class="img-fluid"> Orange</a>
+                  </li> -->
+                  <!-- <li><a href="commodity.html" data-id="citrus" ><img alt="" src="images/icon/acid-lime.svg" class="img-fluid"> Citrus</a></li> -->
+                  <li><a href="commodity.html?name=acid-lime&amp;id=73" data-id="acid-lime" data-info="73"><img alt=""
+                        src="Images/smallicons/acid-lime.svg" class="img-fluid"> Acid Lime</a></li>
+                  <li><a href="commodity.html?name=sweet-orange&amp;id=74" data-id="sweet-orange" data-info="74"><img
+                        alt="" src="Images/smallicons/sweet-orange.svg" class="img-fluid"> Sweet Orange</a></li>
+                  <li><a href="commodity.html?name=mandarin&amp;id=46" data-id="mandarin" data-info="46"><img alt=""
+                        src="Images/smallicons/mandarin.svg" class="img-fluid"> Mandarin</a></li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingVegetables">
+              <h2 class="mb-0">
+                <button class="btn d-block w-100 text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#vegetables" aria-expanded="false" aria-controls="vegetables">Vegetables <i
+                    class="fas fa-angle-up"></i></button>
+              </h2>
+            </div>
+            <div id="vegetables" class="collapse" aria-labelledby="headingVegetables" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a data-id="beans" data-info="45" class="disabled"><img alt="" src="Images/smallicons/beans.svg"
+                        class="img-fluid"> Beans</a></li>
+                  <li><a data-id="brinjal" data-info="3" class="disabled"><img alt=""
+                        src="Images/smallicons/brinjal.svg" class="img-fluid"> Brinjal</a></li>
+                  <li><a data-id="cabbage" data-info="4" class="disabled"><img alt=""
+                        src="Images/smallicons/cabbage.svg" class="img-fluid"> Cabbage</a></li>
+                  <li><a data-id="cauliflower" data-info="6" class="disabled"><img alt=""
+                        src="Images/smallicons/cauliflower.svg" class="img-fluid">Cauliflower</a></li>
+                  <li><a data-id="cucumber" data-info="38" class="disabled"><img alt=""
+                        src="Images/smallicons/cucumber.svg" class="img-fluid"> Cucumber</a></li>
+                  <li><a data-id="green-chilli" data-info="17" class="disabled"><img alt=""
+                        src="Images/smallicons/dry-chilli.svg" class="img-fluid"> Green Chilli</a></li>
+                  <li><a href="commodity.html?name=onion&amp;id=24" data-id="onion" data-info="24"><img alt=""
+                        src="Images/smallicons/onion.svg" class="img-fluid"> Onion</a></li>
+                  <li><a data-id="peas" data-info="26" class="disabled"><img alt="" src="Images/smallicons/peas.svg"
+                        class="img-fluid"> Peas</a></li>
+                  <li><a href="commodity.html?name=potato&amp;id=27" data-id="potato" data-info="27"><img alt=""
+                        src="Images/smallicons/potato.svg" class="img-fluid"> Potato</a></li>
+                  <li><a data-id="tomato" data-info="30" class="disabled"><img alt="" src="Images/smallicons/tomato.svg"
+                        class="img-fluid"> Tomato</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="gstm-view agriota" id="agriota-video">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5">
+            <div class="text-center  video-outer-div">
+              <video id="agriota_video" width="600" loop="" controls="">
+                <source src="videos/agriota-video.m4v" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/O6aI8BAKEx0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-7 pl-md-5">
+            <h4 class="section-title title-border">Agriota E-Marketplace</h4>
+            <p>Agricultural commodities marketplace to connect bulk buyers directly with farmers' ecosystem, while
+              providing neutrality, traceability and trust. Agriota E-Marketplace provides a range of services for
+              contract, bid and money management, entity management, accounting, billing, reconciliation, analytics,
+              fraud, risk and regulatory compliance management etc. The Agriota ecosystem is a Blockchain-based
+              agriculture forwards marketplace that uses one of its kind multi-tier escrow banking system for money
+              management. It is powered by CropData's contract aggregation, open auction, and advance management,
+              variance management, primary and secondary market tools and logistics management.</p>
+            <a href="//agriota.cropdata.in" target="_blank">Login &nbsp;<i class="fas fa-arrow-right"></i></a><br>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="franchise-section" class="franchise-section">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h4 class="section-title text-center title-border">Partner for Trade</h4>
+            <p class="text-center">Become a Franchise, Sub-franchise or Buyer</p>
+            <div class="text-center">
+              <a href="//agriota.cropdata.in/app/agriota/login" class="btn btn-lg btn-primary mt-3 mr-3"
+                target="_blank">Login</a>
+              <a href="cropdata-franchise.html" class="btn btn-lg btn-primary mt-3">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="msg-box"></div>
+      <div class="container footer-menu-section">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>Platforms</h5>
+            <ul class="foooter-menu">
+              <li><a href="dr-krishi.html">Dr. Krishi</a></li>
+              <li><a href="agriota.html">Agriota</a></li>
+              <li><a href="agdata.html">AgData</a></li>
+              <li><a href="krishiCo.html">KrishiCo</a></li>
+            </ul>
+          </div>
+        
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>Products &amp; Services</h5>
+            <ul class="foooter-menu">
+              <li><a class="scroll" data-offset="200" href="product&service.html#customized-advisory">Customized Advisory and Alerts</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#e-marketplace">E-Marketplace</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#value-added-services">Value-added Services</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#ip-licensing">IP Licensing</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#indices">Indices</a></li>
+            </ul>
+          </div>
+        
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>CropData</h5>
+            <ul class="foooter-menu">
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="csr.html">CSR</a></li>
+              <li><a class="scroll" data-offset="150" href="agriota.html#agriota-commodity">Commodities</a>
+              </li><li><a href="career.html">Careers</a></li>
+              <li><a href="news.html">News &amp; Media</a></li>
+              <li><a href="partner.html">Partners</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>Contact Us</h5>
+            <ul class="foooter-menu">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="https://www.google.com/maps?ll=21.120899,79.048064&amp;z=19&amp;t=m&amp;hl=en&amp;gl=IN&amp;mapclient=embed&amp;cid=5506432566055273817"
+                  target="_blank">11/1, IT Park, Gayatri Nagar, Parsodi, Nagpur 440022</a>
+              </li>
+              <li><i class="fas fa-envelope"></i> <a href="mailto:info@cropdata.in" target="_blank">info@cropdata.in</a>
+              </li>
+              <li><i class="fas fa-phone"
+                  style="-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-ms-transform: rotate(90deg);-o-transform: rotate(90deg);transform: rotate(90deg);"></i>
+                <a href="tel:+917122249901">+91-7122249901 - 06</a>
+              </li>
+            </ul>
+            <ul class="social-links">
+              <li>
+                <a href="https://www.facebook.com/CropDataTechnology" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/CropData_in" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/cropdata" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/cropdata/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UC4bawDlR-2SGOXST-FnoTdQ" target="_blank">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>

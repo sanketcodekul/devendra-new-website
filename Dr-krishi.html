@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>CropData-Dr.Krishi</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+    integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+  <main>
+    <header id="js-header">
+      <div class="container menu-bar-container">
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 logo-section">
+            <a href="https://cropdata.in/index.html" class="home-logo"><img alt=""
+                src="./Images/cropdata-logo-white.svg" class="img-fluid"></a>
+            <a href="https://cropdata.in/index.html" class="other-logo"><img alt=""
+                src="./Images/cropdata-logo-blue.svg" class="img-fluid"></a>
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 menu-bar">
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="aboutus.html">About Us</a></li>
+              <li class="submenu_parent">
+                <a class="mouse-pointer">Platforms <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="submenu">
+                  <li><a href="Dr-krishi.html">Dr. Krishi</a></li>
+                  <li><a href="agdata.html">AgData</a></li>
+                  <li><a href="agriota.html">Agriota</a></li>
+                  <li><a href="krishico.html">KrishiCo</a></li>
+                </ul>
+              </li>
+              <li><a href="product&service.html">Products &amp; Services</a></li>
+              <li><a href="partner.html">Partners</a></li>
+              <li class="submenu_parent">
+                <a class="mouse-pointer">CropData <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="submenu">
+                  <li><a href="news.html">News</a></li>
+                  <li><a href="csr.html">CSR</a></li>
+                  <li><a href="agriota.html#agriota-commodity" data-offset="180">Commodities</a></li>
+                  <li><a href="marketData.html">Market Data</a></li>
+                  <li><a href="career.html">Careers</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="joinus.html">Join Us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner" style="background-color: #73bffd;">
+
+      <picture>
+        <source srcset="Images/banners/drk-banner.jpg" media="(min-width: 1024px)" class="img-fluid">
+        <source srcset="Images/banners/drk-banner-medium.jpg" media="(min-width: 400px)" class="img-fluid">
+        <source srcset="Images/banners/drk-banner-small.jpg" media="(min-width: 230px)" class="img-fluid">
+        <img alt="" src="Images/banners/drk-banner.jpg" class="img-fluid">
+      </picture>
+
+    </section>
+
+
+    <nav class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 quick_links activeMenu p-0 text-center drk"
+      id="quick_links" style="overflow: auto;">
+      <div class="nav nav-pills">
+        <ul class="m-0 p-0">
+          <li class="nav-item">
+            <a class="scroll nav-link" href="#drk-introduction" data-offset="180">Introduction</a>
+          </li>
+          <li class="nav-item">
+            <a class="scroll nav-link" href="#drk-features" data-offset="230">Engines &amp; Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="scroll nav-link" href="#drk-gstm" data-offset="180">GSTM</a>
+          </li>
+          <li class="nav-item">
+            <a class="scroll nav-link" href="#drk-news" data-offset="180">News &amp; Links</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="drk-introduction">
+      <div class="container intro-con">
+        <div class="row justify-content-end">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="box">
+              <h2 class="section-title title-border pb-1">Dr. Krishi</h2>
+              <img alt="" src="images/dr-krishi-icon.svg" class="img-fluid blur-out img" width="200">
+              <p class="para">Dr. Krishi Platform is the bottom-most layer (last-mile infrastructure) with a multi-tier
+                network of laboratories designed on the telemedicine philosophy. It is a workflow-based platform that
+                uses integrated technologies to
+                collect, monitor and analyze information, upwards from the farm-level. It also acts as the primary
+                interface to handhold the farmer and provide customized extension and advisory services.</p>
+
+              <p class="para">It is powered by CropData's Spectral Data Analytics, Dynamic Crop Calendar, Dynamic Task
+                Scheduler, Dynamic Questionnaire, Recommendation, Weather Data and Image Recognition tools.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="drk-features">
+      <div class="feature-container">
+        <div class="container">
+          <h2 class="section-title text-center title-border">Engines &amp; Tools</h2>
+          <nav>
+            <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active" id="nav-one-tab" data-toggle="tab" href="#nav-one" role="tab"
+                aria-controls="nav-one" aria-selected="true">Yield and Risk</a>
+
+
+              <a class="nav-item nav-link" id="nav-two-tab" data-toggle="tab" href="#nav-two" role="tab"
+                aria-controls="nav-two" aria-selected="false">
+                Spectral Indexing
+              </a>
+
+              <a class="nav-item nav-link" id="nav-three-tab" data-toggle="tab" href="#nav-three" role="tab"
+                aria-controls="nav-three" aria-selected="false">
+                Dynamic Crop Calendar
+              </a>
+
+              <a class="nav-item nav-link" id="nav-four-tab" data-toggle="tab" href="#nav-four" role="tab"
+                aria-controls="nav-four" aria-selected="false">
+                Operations (Logistics, Scheduling, Proximity)
+              </a>
+
+              <a class="nav-item nav-link" id="nav-five-tab" data-toggle="tab" href="#nav-five" role="tab"
+                aria-controls="nav-five" aria-selected="false">
+                GSTM
+              </a>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent" id="tabs">
+            <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/yield-calculator-2.svg" class="img-fluid">
+                      <h4>Yield Calculator</h4>
+                      <p class="hide">Yield Calculator estimates the production in real-time, based on ground-truthing
+                        of crop health parameters in correlation to the current regional dynamics.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/risk-calculator.svg" class="img-fluid">
+                      <h4>Risk Calculator</h4>
+                      <p class="hide">Risk Calculator calculates risk on the farm level and estimates downward
+                        fluctuation of the production, based on historical data.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/images-processing.svg" class="img-fluid">
+                      <h4>Image Processing</h4>
+                      <p class="hide">It is an integrated tool for crop stress/disease recognition using Machine
+                        Learning.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/aerial-imagery.svg" class="img-fluid">
+                      <h4>Aerial Imagery</h4>
+                      <p class="hide">Automated mission controlled aerial image processing and analytics module that
+                        works in an offline environment even by an untrained field technician.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/automated-workflow.svg" class="img-fluid">
+                      <h4>Automated Workflow</h4>
+                      <p class="hide">CropData's spectral Indexing tool consists of an automated workflow that batch
+                        processes farm shapefiles using the Sentinel-2 platform and systematically processes
+                        multi-spectral data of 13 bands in the visible,
+                        near-infrared, and short-wave infrared spectrum with a spatial resolution of 10m.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/benchmark-indexing.svg" class="img-fluid">
+                      <h4>Benchmark Indexing</h4>
+                      <p class="hide">CropData uses an automated workflow-based benchmark of yield and risk, based on
+                        ground-truthing with an intelligent mechanism for proxying and data gap filling.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/yield-and-risk-estimation.svg" class="img-fluid">
+                      <h4>Yield &amp; Risk Estimation</h4>
+                      <p class="hide">Estimates the production in real-time based on the ground-truthing of the crop
+                        health parameters in correlation to the current regional dynamics and calculates the risk on the
+                        farm level and estimates the downward
+                        fluctuation of the production based on the historical data.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/standardized-visualization.svg" class="img-fluid">
+                      <h4>Standardized Visualization</h4>
+                      <p class="hide">Spectral indexing uses advanced analytics for standardizing the visual
+                        representation of indices over time.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <div class="thumb">
+                        <img alt="" src="Images/smallicons/static-crop-calendar.svg" class="img-fluid">
+                      </div>
+                      <h4>Static Calendar</h4>
+                      <p class="hide">A reference index to monitor crop health at each development stage of a crop. It
+                        helps to know the risky periods and their respective biotic and abiotic stresses. It plays a key
+                        role in suggesting appropriate
+                        measures and recommendations to the farmer.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <div class="thumb">
+                        <img alt="" src="Images/smallicons/dynamic-crop-calendar.svg" class="img-fluid">
+                      </div>
+                      <h4>Realtime Ground-truthing &amp; Weather Indexing</h4>
+                      <p class="hide">A real-time tool based on weather (live forecast data) and ground-truthing that
+                        calibrates the static crop calendar, making it dynamic. DCC is location, variety, stage-specific
+                        and helps in predicting the occurrence
+                        of possible stresses at a given time.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/dynamic-questionanaire-3.svg" class="img-fluid">
+                      <h4>Dynamic Questionnaire</h4>
+                      <p class="hide">The dynamic questionnaire assesses the status of stress and health of a farmer's
+                        field through a set of questions that vary by commodity, phenophase, plant part, and stress
+                        type.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/recommendation.svg" class="img-fluid">
+                      <h4>Dynamic Recommendation</h4>
+                      <p class="hide">A tool that generates dynamic recommendations based on the stress diagnosis done
+                        by our technical associates.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/alert-3.svg" class="img-fluid">
+                      <h4>Alerts &amp; Pop-ups</h4>
+                      <p class="hide">DCC powered individualised and customised periodic notifications sent to the
+                        farmers based on the intensity and severity of ground-truth observations, which include a
+                        pictorial representation of images along
+                        with recommendations.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/ground-truth-2.svg" class="img-fluid">
+                      <h4>Ground-Truthing</h4>
+                      <p class="hide">It is an integrated tool for Dynamic spot allocation, Data Management and
+                        Analytics depending on the crop, crop-variety, region, stage, stress and spectral analysis.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/farmer-app.svg" class="img-fluid">
+                      <h4>Farmer App</h4>
+                      <p class="hide">An application to interface with the farmer to provide information and customized
+                        alerts on a real-time basis.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/ground-truth-2.svg" class="img-fluid">
+                      <h4>Ground-truthing Platform</h4>
+                      <p class="hide">CropData uses a workflow-based field, task, resource and customer management
+                        platform that uses various Dr. Krishi tools to acquire data and provide customized analytics and
+                        advisory on an integrated basis.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/automated-task.svg" class="img-fluid">
+                      <h4>Automated Task Management</h4>
+                      <p class="hide">CropData uses a workflow-based task generation, verification, allocation,
+                        monitoring and performance management platform, which uses various Dr. Krishi tools for
+                        prioritization and effective task management.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-five" role="tabpanel" aria-labelledby="nav-five-tab">
+              <div class="container-fluid box">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/gstm.svg" class="img-fluid">
+                      <h4>Geospatial Data Management</h4>
+                      <p class="hide">The GSTM system makes data available on a personalized basis to individual
+                        farmers, customized to their respective crop, location and vulnerability to different kinds of
+                        stress. It also provides CropData with
+                        the ability to generate customized alerts en masse. The GSTM system is powered by location and
+                        time-specific dynamic crop calendars which are further powered by advanced analytics, using
+                        machine learning
+                        algorithms, benchmark indices, weather correlations, impact models for yield and stress, across
+                        various zoom-levels.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/benchmark-indexing.svg" class="img-fluid">
+                      <h4>Benchmark Indexing &amp; Proxying</h4>
+                      <p class="hide">CropData uses an automated workflow-based benchmarking across various regions (22
+                        levels) and times, for all data sets with an intelligent mechanism for proxying and data gap
+                        filling.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/indices.svg" class="img-fluid">
+                      <h4>Indices</h4>
+                      <p class="hide">GSTM powers various external and internal indices that provide data analytics
+                        across region and time.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/indices-and-kpi.svg" class="img-fluid">
+                      <h4>KPI Management</h4>
+                      <p class="hide">GSTM manages various key performance indicators across divisions, processes
+                        employees, customers, tasks, schedules, etc. and powers various tools associated with Balance
+                        Scorecards and Management Information
+                        Systems (MIS).</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="feature-box">
+                      <img alt="" src="Images/smallicons/gstm-eye.svg" class="img-fluid">
+                      <h4>GSTM Eye</h4>
+                      <p class="hide">The various indices can be visualized on a dynamic map architecture, with the
+                        ability to have both high-level and granular view for quick decision making. GSTM and GSTM Eye
+                        can be interfaced with third-party
+                        data and platforms on a seamless basis.</p>
+                      <a class="hover">Read More</a>
+                      <i class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="drk-gstm" class="gstm-view">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div class="gstm-map">
+              <a href="gstm-eye/" class="map-screen" target="_blank">
+                <img alt="" src="Images/smallicons/laptop-mockup.png" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-4 side-text">
+            <h4 class="section-title title-border">Geo-Spatial Tile Management (GSTM)</h4>
+            <p>It's a proprietary data collection, analytics and visualization tool built on a geospatial and temporal
+              architecture. </p>
+            <ul>
+              <li>It maintains internal and external data by location, geographic regions (levels), time, crop etc.
+              </li>
+              <li>It powers various workflows, processes and tools; helping CropData provide personalized services to
+                our customers, based on their respective crop, variety, location, risk, stress and phenophase.
+              </li>
+              <li>It can be customized to manage and visualize various indices where data is available by location and
+                time.</li>
+            </ul>
+            <a href="gstm-eye/" class="map-linking" target="_blank">Explore it &nbsp;<i
+                class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="drk-news">
+      <div class="container news-and-report-container">
+        <h4 class="section-title title-border text-center">News &amp; Links</h4>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-9 col-xl-9">
+            <div class="card p-0 news-box">
+              <div class="card-header">
+                <h5 class="section-title m-0">News</h5>
+              </div>
+              <div class="card-body">
+               
+             
+                  <div class="text-center">
+                    <a href="#!" class="my-3 w-auto btn btn-dark" id="seeMore">See More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+         
+          </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="msg-box"></div>
+      <div class="container footer-menu-section">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>Platforms</h5>
+            <ul class="foooter-menu">
+              <li><a href="dr-krishi.html">Dr. Krishi</a></li>
+              <li><a href="agriota.html">Agriota</a></li>
+              <li><a href="agdata.html">AgData</a></li>
+              <li><a href="krishiCo.html">KrishiCo</a></li>
+            </ul>
+          </div>
+        
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>Products &amp; Services</h5>
+            <ul class="foooter-menu">
+              <li><a class="scroll" data-offset="200" href="product&service.html#customized-advisory">Customized Advisory and Alerts</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#e-marketplace">E-Marketplace</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#value-added-services">Value-added Services</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#ip-licensing">IP Licensing</a></li>
+              <li><a class="scroll" data-offset="200" href="product&service.html#indices">Indices</a></li>
+            </ul>
+          </div>
+        
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>CropData</h5>
+            <ul class="foooter-menu">
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="csr.html">CSR</a></li>
+              <li><a class="scroll" data-offset="150" href="agriota.html#agriota-commodity">Commodities</a>
+              </li><li><a href="career.html">Careers</a></li>
+              <li><a href="news.html">News &amp; Media</a></li>
+              <li><a href="partner.html">Partners</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+            <h5>Contact Us</h5>
+            <ul class="foooter-menu">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="https://www.google.com/maps?ll=21.120899,79.048064&amp;z=19&amp;t=m&amp;hl=en&amp;gl=IN&amp;mapclient=embed&amp;cid=5506432566055273817"
+                  target="_blank">11/1, IT Park, Gayatri Nagar, Parsodi, Nagpur 440022</a>
+              </li>
+              <li><i class="fas fa-envelope"></i> <a href="mailto:info@cropdata.in" target="_blank">info@cropdata.in</a>
+              </li>
+              <li><i class="fas fa-phone"
+                  style="-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-ms-transform: rotate(90deg);-o-transform: rotate(90deg);transform: rotate(90deg);"></i>
+                <a href="tel:+917122249901">+91-7122249901 - 06</a>
+              </li>
+            </ul>
+            <ul class="social-links">
+              <li>
+                <a href="https://www.facebook.com/CropDataTechnology" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/CropData_in" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/cropdata" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/cropdata/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UC4bawDlR-2SGOXST-FnoTdQ" target="_blank">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="//stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="js/jquery.jConveyorTicker.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+
+
+
+
+</body>
+
+</html>

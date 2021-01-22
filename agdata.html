@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    
+    <title>CropData-AgData</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+</head>
+
+<body>
+  
+  <main>
+    <header id="js-header">
+      <div class="container menu-bar-container">
+          <div class="row align-items-center">
+              <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 logo-section">
+                  <a href="index.html" class="home-logo"><img alt="" src="./Images/cropdata-logo-white.svg" class="img-fluid"></a>
+                          <a href="cropdata.in/index.html" class="other-logo"><img alt="" src="./Images/cropdata-logo-blue.svg" class="img-fluid"></a>
+                          
+              </div>
+              <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 menu-bar">
+                  <ul class="nav-menu">
+                      <li><a href="index.html">Home</a></li>
+                      <li class="active"><a href="aboutus.html">About Us</a></li>
+                      <li class="submenu_parent">
+                          <a class="mouse-pointer">Platforms <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                          <ul class="submenu">
+                              <li><a href="Dr-krishi.html">Dr. Krishi</a></li>
+                              <li><a href="agdata.html">AgData</a></li>
+                              <li><a href="agriota.html">Agriota</a></li>
+                              <li><a href="krishico.html">KrishiCo</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="product&service.html">Products &amp; Services</a></li>
+                      <li><a href="partner.html">Partners</a></li>
+                      <li class="submenu_parent">
+                          <a class="mouse-pointer">CropData <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                          <ul class="submenu">
+                              <li><a href="news.html">News</a></li>
+                              <li><a href="csr.html">CSR</a></li>
+                              <li><a href="agriota.html#agriota-commodity"
+                                data-offset="180">Commodities</a></li>
+                              <li><a href="marketData.html">Market Data</a></li>
+                              <li><a href="career.html">Careers</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                              <li><a href="joinus.html">Join Us</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </header>
+      <section class="banner" style="background-color: #30d8c0;">
+          <picture>
+              <source srcset="Images/banners/agdata-banner.jpg" media="(min-width: 1024px)" class="img-fluid">
+              <source srcset="Images/banners/agdata-banner-medium.jpg" media="(min-width: 400px)" class="img-fluid">
+              <source srcset="Images/banners/agdata-banner-small.jpg" media="(min-width: 230px)" class="img-fluid">
+              <img alt="" src="Images/banners/agdata-banner.jpg" width="100%" class="img-fluid">
+          </picture>
+
+      </section>
+
+      <nav class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 quick_links activeMenu p-0 text-center agdata" id="quick_links">
+          <div class="nav nav-pills">
+              <ul class="m-0 p-0">
+                  <li class="nav-item">
+                      <a class="scroll nav-link" href="#agdata-introduction" data-offset="150">Introduction</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="scroll nav-link" href="#agdata-features" data-offset="200">Engine &amp; Tools</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="scroll nav-link" href="#agdata-indices" data-offset="150">Indices</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="scroll nav-link" href="#agdata-gstm" data-offset="150">GSTM</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="scroll nav-link" href="#agdata-news" data-offset="150">News &amp; Links</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+
+      <section id="agdata-introduction">
+          <div class="container intro-con">
+              <div class="row justify-content-end">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                      <div class="box">
+                          <h2 class="section-title title-border pb-1">AgData</h2>
+                          <img alt="" src="Images/agdata-icon.svg" class="img-fluid img" width="200">
+                          <p class="para">CropData Gateway or AgData platform is an ecosystem for data aggregation, management and visualization, providing a seamless interface for third-parties to access and correspond with CropData's customers. It is powered by CropData's
+                              Geo-Spatial Tile Management (GSTM) system, a platform with hundreds of microservices, that manages primary and secondary data, based on location and time, generating over 200+ indices on 22-levels from a 10m x 10m spot
+                              in the farm upwards, using advanced data analytics.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="agdata-features">
+          <div class="feature-container">
+              <div class="container-fluid box">
+                  <div class="container">
+                      <h2 class="section-title text-center title-border">Engines &amp; Tools</h2>
+                      <div class="row">
+                          <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                              <div class="feature-box">
+                                  <img alt="" src="Images/smallicons/farmer-rating.svg" class="img-fluid">
+                                  <h4>Farmer Rating</h4>
+                                  <p class="hide">Estimation of region-wise farmer credit risk to quantify the level of willful and non-willful default based on various socio-economic and production risk parameters. It also includes a farm, case and respective village
+                                      rating.
+                                  </p>
+                                  <a class="hover">Read More</a>
+                                  <i class="fas fa-angle-down"></i>
+                              </div>
+                          </div>
+
+                          <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                              <div class="feature-box">
+                                  <img alt="" src="Images/smallicons/commodity-balance-sheet.svg" class="img-fluid">
+                                  <h4>Commodity Balance Sheet</h4>
+                                  <p class="hide">Commodity balance sheet shows the production, import, export and stock data of all the major agricultural commodities in a standardized form.</p>
+                                  <a class="hover">Read More</a>
+                                  <i class="fas fa-angle-down"></i>
+                              </div>
+                          </div>
+
+                          <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                              <div class="feature-box">
+                                  <img alt="" src="Images/smallicons/indices.svg" class="img-fluid">
+                                  <h4>Indices</h4>
+                                  <p class="hide">GSTM powers various external and internal indices that provide data analytics across region and time. <a class="scroll" data-offset="150" href="#agdata-indices">Learn More</a></p>
+                                  <a class="scroll hover">Read More</a>
+                                  <i class="fas fa-angle-down"></i>
+                              </div>
+                          </div>
+
+                          <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                              <div class="feature-box">
+                                  <img alt="" src="Images/smallicons/sowing-and-harvesting-calendar.svg" class="img-fluid">
+                                  <h4>Crop Sowing and Harvesting Calendar</h4>
+                                  <p class="hide">Crop Sowing and Harvesting Calendar is a comprehensive guide that provides timely information on planting, sowing and harvesting periods locally adopted in specific agro-climatic zones, with an easy to use visual tool.</p>
+                                  <a class="hover">Read More</a>
+                                  <i class="fas fa-angle-down"></i>
+                              </div>
+                          </div>
+                          <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                              <div class="feature-box">
+                                  <img alt="" src="Images/smallicons/gstm.svg" class="img-fluid">
+                                  <h4>Geospatial Data Management</h4>
+                                  <p class="hide">The GSTM system makes data available on a personalized basis to individual farmers, customized to their respective crop, location and vulnerability to different kinds of stress. It also provides CropData with the ability
+                                      to generate customized alerts en masse. The GSTM system is powered by location and time-specific dynamic crop calendars which are further powered by advanced analytics, using machine learning algorithms, benchmark
+                                      indices, weather correlations, impact models for yield and stress, across various zoom-levels.</p>
+                                  <a class="hover">Read More</a>
+                                  <i class="fas fa-angle-down"></i>
+                              </div>
+                          </div>
+
+                          <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                              <div class="feature-box">
+                                  <img alt="" src="Images/smallicons/benchmark-indexing.svg" class="img-fluid">
+                                  <h4>Benchmark Indexing &amp; Proxying</h4>
+                                  <p class="hide">CropData uses an automated workflow-based benchmarking across various regions (22 levels) and time for all data sets with an intelligent mechanism for proxying and data gap filling etc.</p>
+                                  <a class="hover">Read More</a>
+                                  <i class="fas fa-angle-down"></i>
+                              </div>
+                          </div>
+
+                          <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                              <div class="feature-box">
+                                  <img alt="" src="Images/smallicons/gstm-eye.svg" class="img-fluid">
+                                  <h4>GSTM Eye</h4>
+                                  <p class="hide">The various indices can be visualized on a dynamic map architecture, with the ability to have both high-level and granular view for quick decision making. GSTM and GSTM Eye can be interfaced with third-party data, and
+                                      platforms on a seamless basis.</p>
+                                  <a class="hover">Read More</a>
+                                  <i class="fas fa-angle-down"></i>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="agdata-indices" class="indices-section">
+          <div class="container">
+              <p class="para">CropData provides 200+ indices related to the agriculture sector in convenient formats including map-based visual interface through convenient APIs. Indices provide granular analytics with differential viewpoints across geographical areas/levels
+                  and time.</p>
+              <!-- <h5 class="mb-3 list-title">List of our Indices</h5> -->
+              <ul class="row main-list">
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Multiple Cropping Index</h6>
+                      <p>Gross cropped area to total cultivable area, to estimate the extent of utilization of the farmland across seasons.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Cropping Intensity</h6>
+                      <p>Cropping intensity calculates the percentage of gross cropped area to the net sown area, to estimate the extent of cropping pattern across seasons.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Net Sown Index</h6>
+                      <p>The net sown index assesses the area in which total crops are grown once in a year, for a particular region.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Crop Farming Index</h6>
+                      <p>The crop farming index estimates the ratio of individual crop area to other crops in the region.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Sustainability Yield Index</h6>
+                      <p>Sustainability Yield Index estimates the stability of a crop by evaluating the trend in the crop yield over the years.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Area Diversity Index</h6>
+                      <p>Area Diversity index highlights the practice of growing different crops per unit area within a season (seasonal diversity) as well as within a year (rotational diversity).</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Crop Irrigation Index</h6>
+                      <p>Irrigated area estimates the water availability of the crop-specific vegetated area in a particular region.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Farm-size Index</h6>
+                      <p>Farm-size index provides crop-specific average sizes of agricultural landholding.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Soil Fertility Index</h6>
+                      <p>The soil fertility index (SFI) is an indicator that is used to evaluate soil fertility in specific regions. We assess the overall soil quality by measuring changes in the physical, chemical, and biological indicators and transforming
+                          them into single metrics.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Agri Economy Index</h6>
+                      <p>The Agri economy index estimates crop-specific risk in the agriculture economy of the region.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Production Stability Index</h6>
+                      <p>The production index estimates the production risk in the area and yield of a particular commodity.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Area Stability Index</h6>
+                      <p>Area Stability Index (PYaR) estimates the risk of a region and helps to predict the uncertainty of that region.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Crop Stability Index</h6>
+                      <p>Crop Stability Index (IYaR) estimates crop-wise risk in a particular region.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Price Volatility Index</h6>
+                      <p>The price volatility index estimates crop-wise price fluctuation in a region.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>MSP Realization Index</h6>
+                      <p>MSP realization index is the representation of the deviation of the spot price from the minimum support price (MSP) by crop and region.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Cost of Cultivation Index</h6>
+                      <p>Cost of Cultivation Index is the estimation of income of the farmer by crop and region.</p>
+                  </li>
+                  <li class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <h6>Stress Occurrence Index</h6>
+                      <p>Stress occurrence Index provides the probability of the stress at any particular time by crop and region.</p>
+                  </li>
+              </ul>
+          </div>
+      </section>
+
+      <section id="agdata-gstm" class="gstm-view">
+          <div class="container">
+              <div class="row align-items-center justify-content-center">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <div class="gstm-map">
+                          <a href="gstm-eye/" class="map-screen" target="_blank">
+                              <img alt="" src="Images/smallicons/laptop-mockup.png" class="img-fluid">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-4 side-text">
+                      <h4 class="section-title title-border">Geo-Spatial Tile Management (GSTM)</h4>
+                      <p>It's a proprietary data collection, analytics and visualization tool built on a geospatial and temporal architecture.
+                      </p>
+                      <ul>
+                          <li>It maintains internal and external data by location, geographic regions (levels), time, crop and stress.
+                          </li>
+                          <li>It can be customized to manage and visualize various indices where data is available by location and time.
+                          </li>
+                          <li>CropData has 17 indices available through the GSTM architecture, which can be integrated into third-party websites effortlessly through convenient APIs.</li>
+                      </ul>
+                      <a href="gstm-eye/" class="map-linking" target="_blank">Explore it &nbsp;<i class="fas fa-arrow-right"></i></a>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="agdata-news">
+          <div class="container news-and-report-container">
+              <h4 class="section-title title-border text-center">News &amp; Links</h4>
+              <div class="row">
+                  <div class="col-12 col-md-12 col-lg-9 col-xl-9">
+                      <div class="card p-0 news-box">
+                          <div class="card-header">
+                              <h5 class="section-title m-0">News</h5>
+                          </div>
+                          <div class="card-body">
+       
+          </a>
+        </div></div>
+                              <div class="text-center">
+                                  <a href="#!" class="my-3 w-auto btn btn-dark" id="seeMore">See More</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              
+              </div>
+          </div>
+      </section>
+
+    
+      <footer><div class="msg-box"></div>
+<div class="container footer-menu-section">
+<div class="row">
+  <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+    <h5>Platforms</h5>
+    <ul class="foooter-menu">
+      <li><a href="dr-krishi.html">Dr. Krishi</a></li>
+      <li><a href="agriota.html">Agriota</a></li>
+      <li><a href="agdata.html">AgData</a></li>
+      <li><a href="krishiCo.html">KrishiCo</a></li>
+    </ul>
+  </div>
+
+  <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+    <h5>Products &amp; Services</h5>
+    <ul class="foooter-menu">
+      <li><a class="scroll" data-offset="200" href="product&service.html#customized-advisory">Customized Advisory and Alerts</a></li>
+      <li><a class="scroll" data-offset="200" href="product&service.html#e-marketplace">E-Marketplace</a></li>
+      <li><a class="scroll" data-offset="200" href="product&service.html#value-added-services">Value-added Services</a></li>
+      <li><a class="scroll" data-offset="200" href="product&service.html#ip-licensing">IP Licensing</a></li>
+      <li><a class="scroll" data-offset="200" href="product&service.html#indices">Indices</a></li>
+    </ul>
+  </div>
+
+  <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+    <h5>CropData</h5>
+    <ul class="foooter-menu">
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="csr.html">CSR</a></li>
+      <li><a class="scroll" data-offset="150" href="agriota.html#agriota-commodity">Commodities</a>
+      </li><li><a href="career.html">Careers</a></li>
+      <li><a href="news.html">News &amp; Media</a></li>
+      <li><a href="partner.html">Partners</a></li>
+    </ul>
+  </div>
+
+  <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-box">
+    <h5>Contact Us</h5>
+    <ul class="foooter-menu">
+      <li>
+        <i class="fas fa-map-marker-alt"></i>
+        <a href="https://www.google.com/maps?ll=21.120899,79.048064&amp;z=19&amp;t=m&amp;hl=en&amp;gl=IN&amp;mapclient=embed&amp;cid=5506432566055273817" target="_blank">11/1, IT Park, Gayatri Nagar, Parsodi, Nagpur 440022</a></li>
+      <li><i class="fas fa-envelope"></i> <a href="mailto:info@cropdata.in" target="_blank">info@cropdata.in</a>
+      </li>
+      <li><i class="fas fa-phone" style="-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-ms-transform: rotate(90deg);-o-transform: rotate(90deg);transform: rotate(90deg);"></i>
+        <a href="tel:+917122249901">+91-7122249901 - 06</a></li>
+    </ul>
+    <ul class="social-links">
+      <li>
+        <a href="https://www.facebook.com/CropDataTechnology" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/CropData_in" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/company/cropdata" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/cropdata/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UC4bawDlR-2SGOXST-FnoTdQ" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+</footer>
+  </main>
+ </body>
+ </html>
