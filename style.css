@@ -82,7 +82,7 @@
 
  /* change the navbar items and links color and font weight */
  .navbar-custom .navbar-nav .nav-link a, .nav-link a:visited, .navbar-nav a{
-  color: #fff;
+  color:black;
   font-weight: 600;
 
 }
